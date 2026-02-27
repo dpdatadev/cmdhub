@@ -1,0 +1,4 @@
+pre-alpha
+1. COMPLETE DOCS
+2. COMPLETE TESTS
+3. ROBUST Logging solution
