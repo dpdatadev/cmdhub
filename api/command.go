@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/goforj/execx"
 	"github.com/google/uuid"
 )
 
@@ -42,6 +43,13 @@ type HubCommand struct {
 	CreatedAt time.Time
 	StartedAt time.Time
 	EndedAt   time.Time
+
+	/*
+		Allows us to either run standard os.Exec commands
+		or, if xCmd is present, run fluent go4J Execx Cmd
+		See: https://github.com/goforj/execx
+	*/
+	xCmd execx.Cmd
 }
 
 func (c *HubCommand) ExecString() string {
