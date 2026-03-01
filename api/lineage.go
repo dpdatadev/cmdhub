@@ -8,20 +8,20 @@ import (
 )
 
 type LineageService interface {
-	BeginChain() []*CommandLineage          //Step 1 - (Hydrate) - create CommandLineage objects from Command objects (copying relevant fields and adding lineage metadata)
-	LinkChain(cmds []*CommandLineage) error //Step 2 - (Chain together) - assign PrevID, NextID, RootID to CommandLineage objects to create a linked tracking chain
-	LogLineage(lineage []*CommandLineage, lineageFileName string) error
+	BeginChain() []*HubCommandLineage          //Step 1 - (Hydrate) - create HubCommandLineage objects from HubCommand objects (copying relevant fields and adding lineage metadata)
+	LinkChain(cmds []*HubCommandLineage) error //Step 2 - (Chain together) - assign PrevID, NextID, RootID to HubCommandLineage objects to create a linked tracking chain
+	LogLineage(lineage []*HubCommandLineage, lineageFileName string) error
 }
 
 type DBHistoryService struct {
-	AuditCommands []*Command
-	Store         CommandStore
+	AuditHubCommands []*HubCommand
+	Store            HubCommandStore
 }
 
-// TODO, beta thoughts (think on this) -- I think the second struct needs to be removed and keep PrevID and NextID on Command
-// Then any Command can easily be checked for lineage then move forward or backward instead of
+// TODO, beta thoughts (think on this) -- I think the second struct needs to be removed and keep PrevID and NextID on HubCommand
+// Then any HubCommand can easily be checked for lineage then move forward or backward instead of
 // checking a different table/output.
-type CommandLineage struct {
+type HubCommandLineage struct {
 	ID      string
 	BatchID string
 
@@ -30,8 +30,8 @@ type CommandLineage struct {
 	NextID string //*
 
 	// Optional richer lineage
-	//ParentID string  // spawned from (copied from Command object in Lineage creation via HydrateLineage())
-	RootID string //* workflow root (copied from first CommandLineage in ChainLineage())
+	//ParentID string  // spawned from (copied from HubCommand object in Lineage creation via HydrateLineage())
+	RootID string //* workflow root (copied from first HubCommandLineage in ChainLineage())
 
 	Status    string
 	Stdout    string
@@ -40,13 +40,13 @@ type CommandLineage struct {
 
 // ///////////////////////////////////////////////////////////
 // TODO - improve https://chatgpt.com/c/698c0190-d8ec-832d-8aee-537b6c64320d
-func (hs *DBHistoryService) BeginChain() []*CommandLineage {
+func (hs *DBHistoryService) BeginChain() []*HubCommandLineage {
 
-	if len(hs.AuditCommands) == 0 {
-		return []*CommandLineage{}
+	if len(hs.AuditHubCommands) == 0 {
+		return []*HubCommandLineage{}
 	}
 
-	lineageObjects := make([]*CommandLineage, 0, len(hs.AuditCommands))
+	lineageObjects := make([]*HubCommandLineage, 0, len(hs.AuditHubCommands))
 
 	shortUUID, err := (&CmdIOHelper{}).NewShortUUID()
 
@@ -62,9 +62,9 @@ func (hs *DBHistoryService) BeginChain() []*CommandLineage {
 	batchID := fmt.Sprintf("batch__%s", batchSuffix)
 	now := time.Now()
 
-	for _, cmd := range hs.AuditCommands {
+	for _, cmd := range hs.AuditHubCommands {
 
-		lineageObject := &CommandLineage{
+		lineageObject := &HubCommandLineage{
 			ID:        cmd.ID.String(),
 			BatchID:   batchID,
 			Status:    cmd.Status,
@@ -79,11 +79,11 @@ func (hs *DBHistoryService) BeginChain() []*CommandLineage {
 }
 
 func (hs *DBHistoryService) LinkChain(
-	cmds []*CommandLineage, //todo add history struct to keep separate table of tracking and we can join on uuid
+	cmds []*HubCommandLineage, //todo add history struct to keep separate table of tracking and we can join on uuid
 ) error {
 
 	if len(cmds) == 0 {
-		return errors.New("Chain Empty! No Commands to Link!")
+		return errors.New("Chain Empty! No HubCommands to Link!")
 	}
 
 	rootID := cmds[0].ID
@@ -108,7 +108,7 @@ func (hs *DBHistoryService) LinkChain(
 }
 
 // Write lineage graph to file
-func (hs *DBHistoryService) LogLineage(lineage []*CommandLineage, lineageFileName string) error {
+func (hs *DBHistoryService) LogLineage(lineage []*HubCommandLineage, lineageFileName string) error {
 
 	f := (&CmdIOHelper{}).GetFileWrite(lineageFileName)
 	if f == nil {

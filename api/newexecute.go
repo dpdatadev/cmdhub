@@ -4,12 +4,15 @@ import (
 	"bytes"
 	"context"
 	"errors"
+	"fmt"
 	"log"
 	"os/exec"
 	"time"
+
+	"github.com/goforj/execx"
 )
 
-// Stores the results/metadata of a Command Operation
+// Stores the results/metadata of a HubCommand Operation
 type ExecutionResult struct {
 	Stdout   string
 	Stderr   string
@@ -21,22 +24,22 @@ type ExecutionResult struct {
 	Duration  time.Duration // TODO, we should handle this somewhere, important info
 }
 
-// Define the Executor contract for the Service layer. All Commands are Executed by Executors.
-type CommandExecutor interface {
+// Define the Executor contract for the Service layer. All HubCommands are Executed by Executors.
+type HubCommandExecutor interface {
 	Execute(
 		ctx context.Context,
-		cmd *Command, debug bool,
+		cmd *HubCommand, debug bool,
 	) (*ExecutionResult, error)
 }
 
 type BaseExecutor struct{}
 
-// Local (not Remote) Command Executor (Default)
+// Local (not Remote) HubCommand Executor (Default)
 type LocalExecutor struct {
 	BaseExecutor
 }
 
-func (le *BaseExecutor) debugDump(cmd *Command, er *ExecutionResult, logFileName string) {
+func (le *BaseExecutor) debugDump(cmd *HubCommand, er *ExecutionResult, logFileName string) {
 
 	file := (&CmdIOHelper{}).GetFileWrite(logFileName)
 
@@ -59,7 +62,7 @@ func (le *BaseExecutor) debugDump(cmd *Command, er *ExecutionResult, logFileName
 	log.Println("Args: ", cmd.Args)
 	log.Println("Notes: ", cmd.Notes)
 	log.Println("Status: ", cmd.Status)
-	log.Println("Command Started: ", cmd.StartedAt)
+	log.Println("HubCommand Started: ", cmd.StartedAt)
 	log.Println("Execution Ended: ", er.EndedAt)
 	log.Println("Duration: ", er.Duration)
 	log.Println("ExitCode: ", er.ExitCode)
@@ -73,7 +76,7 @@ func NewLocalExecutor() *LocalExecutor {
 
 func (e *LocalExecutor) Execute(
 	ctx context.Context,
-	cmd *Command, debug bool,
+	cmd *HubCommand, debug bool,
 ) (*ExecutionResult, error) {
 
 	start := time.Now()
@@ -84,7 +87,7 @@ func (e *LocalExecutor) Execute(
 	c.Stdout = &stdout
 	c.Stderr = &stderr
 
-	//Security Audit/Scub check happens in Service, only valid commands make it to the Executor
+	//Security Audit/Scub check happens in Service, only valid HubCommands make it to the Executor
 	err := c.Run()
 
 	end := time.Now()
@@ -110,4 +113,41 @@ func (e *LocalExecutor) Execute(
 	}
 
 	return result, err
+}
+
+func execxTest() {
+	// Run executes the HubCommand and returns the result and any error.
+
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+
+	res, err := execx.
+		Command("printf", "hello\nworld\n").
+		Pipe("tr", "a-z", "A-Z").
+		Env("MODE=demo").
+		WithContext(ctx).
+		OnStdout(func(line string) {
+			fmt.Println("OUT:", line)
+		}).
+		OnStderr(func(line string) {
+			fmt.Println("ERR:", line)
+		}).
+		Run()
+
+	if !res.OK() {
+		log.Fatalf("HubCommand failed: %v", err)
+	}
+
+	fmt.Printf("Stdout: %q\n", res.Stdout)
+	fmt.Printf("Stderr: %q\n", res.Stderr)
+	fmt.Printf("ExitCode: %d\n", res.ExitCode)
+	fmt.Printf("Error: %v\n", res.Err)
+	fmt.Printf("Duration: %v\n", res.Duration)
+	// OUT: HELLO
+	// OUT: WORLD
+	// Stdout: "HELLO\nWORLD\n"
+	// Stderr: ""
+	// ExitCode: 0
+	// Error: <nil>
+	// Duration: 10.123456ms
 }

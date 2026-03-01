@@ -6,27 +6,27 @@ import (
 	"time"
 )
 
-// A Command Service must have access to an Executor for managing Commands and a Store for persisting results.
+// A HubCommand Service must have access to an Executor for managing HubCommands and a Store for persisting results.
 // The service handles implementation specific details and communication.
-type CommandService struct {
+type HubCommandService struct {
 	//Service
-	Store    CommandStore
-	Executor CommandExecutor
+	Store    HubCommandStore
+	Executor HubCommandExecutor
 }
 
-func NewCommandService(
-	store CommandStore,
-	exec CommandExecutor,
-) *CommandService {
-	return &CommandService{
+func NewHubCommandService(
+	store HubCommandStore,
+	exec HubCommandExecutor,
+) *HubCommandService {
+	return &HubCommandService{
 		Store:    store,
 		Executor: exec,
 	}
 }
 
-func (s *CommandService) RunCommand(
+func (s *HubCommandService) RunHubCommand(
 	ctx context.Context,
-	cmd *Command, debug bool,
+	cmd *HubCommand, debug bool,
 ) error {
 
 	if NewDefaultScrubber().Scrub(cmd) != nil {

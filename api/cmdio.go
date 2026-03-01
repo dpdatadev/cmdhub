@@ -23,9 +23,9 @@ var (
 
 type CmdIOHelper struct{}
 
-func (io *CmdIOHelper) ParseCommands(fileName string) []*Command {
+func (io *CmdIOHelper) ParseHubCommands(fileName string) []*HubCommand {
 
-	PrintDebug("COMMAND READ[+]: %s\n", fileName)
+	PrintDebug("HubCommand READ[+]: %s\n", fileName)
 
 	fileName = strings.ToLower(strings.TrimSpace(fileName))
 
@@ -33,14 +33,14 @@ func (io *CmdIOHelper) ParseCommands(fileName string) []*Command {
 	if !strings.HasSuffix(fileName, ".txt") {
 		PrintFailure("Invalid file type: %s\n", fileName)
 		log.Println("Only .TXT files supported at this time for parsing (alpha v0.1)")
-		return []*Command{}
+		return []*HubCommand{}
 	}
 
 	file := io.GetFileRead(fileName)
 	//Handle file open
 	if file == nil {
 		PrintFailure("Error opening file: %v\n", errors.New("file is nil"))
-		return []*Command{}
+		return []*HubCommand{}
 	}
 
 	defer file.Close()
@@ -50,26 +50,26 @@ func (io *CmdIOHelper) ParseCommands(fileName string) []*Command {
 	n, err := file.Read(buf)
 	if err != nil {
 		PrintFailure("Error reading file: %v\n", err)
-		return []*Command{}
+		return []*HubCommand{}
 	}
-	commandData := string(buf[:n])
-	commands := make([]*Command, 0, len(commandData))
-	commandLines := strings.SplitSeq(commandData, "\n")
-	for cmd := range commandLines {
+	HubCommandData := string(buf[:n])
+	HubCommands := make([]*HubCommand, 0, len(HubCommandData))
+	HubCommandLines := strings.SplitSeq(HubCommandData, "\n")
+	for cmd := range HubCommandLines {
 		//TODO, eventually handling TOML or YAML or Proc files, not plain .txt
-		//ignore commented out commands
+		//ignore commented out HubCommands
 		if !strings.HasPrefix(cmd, "//") && !strings.HasPrefix(cmd, "##") { //TODO, test coverage
 			cmdFields := strings.Fields(cmd)
 			cmdName := cmdFields[0]
 			cmdArgs := cmdFields[1:]
 			cmdNotes := fmt.Sprintf("Ingested from %s", fileName)
-			command := NewCommand(cmdName, cmdArgs, cmdNotes)
-			commands = append(commands, command)
-			PrintDebug("Ingested Command: %s, Args: %v\n", cmdName, cmdArgs)
+			HubCommand := NewHubCommand(cmdName, cmdArgs, cmdNotes)
+			HubCommands = append(HubCommands, HubCommand)
+			PrintDebug("Ingested HubCommand: %s, Args: %v\n", cmdName, cmdArgs)
 		}
 	}
 
-	return commands
+	return HubCommands
 }
 
 // remove in beta
@@ -174,19 +174,19 @@ func (io *CmdIOHelper) NewShortUUID() (string, error) {
 	return uuidString, err
 }
 
-// Helper function for displaying/dumping Command info (default Console/Text/Printf())
-func (io *CmdIOHelper) ConsoleDump(cmd *Command) {
+// Helper function for displaying/dumping HubCommand info (default Console/Text/Printf())
+func (io *CmdIOHelper) ConsoleDump(cmd *HubCommand) {
 	if cmd.Stderr != "" || cmd.Status == "FAILED" {
-		PrintFailure("Command ID: %v\n", cmd.ID)
-		PrintFailure("Command Name: %s\n", cmd.Name)
-		PrintFailure("Command Args: %s\n", cmd.Args)
+		PrintFailure("HubCommand ID: %v\n", cmd.ID)
+		PrintFailure("HubCommand Name: %s\n", cmd.Name)
+		PrintFailure("HubCommand Args: %s\n", cmd.Args)
 		PrintFailure("Status: %v\n", cmd.Status)
 		PrintStdErr("STDERR: %s::<%s>\n", cmd.Stderr, cmd.Error)
 		//ConsoleStdErrHandle(cmd.Stderr) //TODO
 	} else if cmd.Status == "SUCCESS" {
-		PrintIdentity("\nCommand ID: %v\n", cmd.ID)
-		PrintIdentity("Command Name: %s\n", cmd.Name)
-		PrintIdentity("Command Args: %s\n", cmd.Args)
+		PrintIdentity("\nHubCommand ID: %v\n", cmd.ID)
+		PrintIdentity("HubCommand Name: %s\n", cmd.Name)
+		PrintIdentity("HubCommand Args: %s\n", cmd.Args)
 		PrintSuccess("Status: %v\n", cmd.Status)
 		PrintStdOut("STDOUT:\n %s\n", cmd.Stdout)
 		fmt.Println()
@@ -196,7 +196,7 @@ func (io *CmdIOHelper) ConsoleDump(cmd *Command) {
 	}
 }
 
-func (io *CmdIOHelper) FileDump(cmd *Command, logFileName string) {
+func (io *CmdIOHelper) FileDump(cmd *HubCommand, logFileName string) {
 
 	logFile := io.GetFileWrite(logFileName)
 
@@ -209,16 +209,16 @@ func (io *CmdIOHelper) FileDump(cmd *Command, logFileName string) {
 	log.SetOutput(logFile)
 
 	if cmd.Stderr != "" || cmd.Status == "FAILED" {
-		log.Fatalf("Command ID: %v\n", cmd.ID)
-		log.Fatalf("Command Name: %s\n", cmd.Name)
-		log.Fatalf("Command Args: %s\n", cmd.Args)
+		log.Fatalf("HubCommand ID: %v\n", cmd.ID)
+		log.Fatalf("HubCommand Name: %s\n", cmd.Name)
+		log.Fatalf("HubCommand Args: %s\n", cmd.Args)
 		log.Fatalf("Status: %v\n", cmd.Status)
 		log.Fatalf("STDERR: %s::<%s>\n", cmd.Stderr, cmd.Error)
 		//ConsoleStdErrHandle(cmd.Stderr) //TODO
 	} else if cmd.Status == "SUCCESS" {
-		log.Printf("Command ID: %v\n", cmd.ID)
-		log.Printf("Command Name: %s\n", cmd.Name)
-		log.Printf("Command Args: %s\n", cmd.Args)
+		log.Printf("HubCommand ID: %v\n", cmd.ID)
+		log.Printf("HubCommand Name: %s\n", cmd.Name)
+		log.Printf("HubCommand Args: %s\n", cmd.Args)
 		log.Printf("Status: %v\n", cmd.Status)
 		log.Printf("STDOUT:\n %s\n", cmd.Stdout)
 		//ConsoleStdOutHandle(cmd.Stdout) //TODO

@@ -1,13 +1,14 @@
 package internal
 
 import (
+	"os/user"
 	"strings"
 	"time"
 
 	"github.com/google/uuid"
 )
 
-// Reporting the status of the command
+// Reporting the status of the HubCommand
 const (
 	StatusPending  = "PENDING"
 	StatusRunning  = "RUNNING"
@@ -18,14 +19,14 @@ const (
 
 const (
 	_ = iota
-	CommandType_NIL
-	CommandType_TEXT
-	CommandType_WEB
-	CommandType_DATA
-	CommandType_OTHER
+	HubCommandType_NIL
+	HubCommandType_TEXT
+	HubCommandType_WEB
+	HubCommandType_DATA
+	HubCommandType_OTHER
 )
 
-type Command struct {
+type HubCommand struct {
 	ID       uuid.UUID
 	Name     string
 	Category int
@@ -43,12 +44,23 @@ type Command struct {
 	EndedAt   time.Time
 }
 
-func (c *Command) ExecString() string {
+func (c *HubCommand) ExecString() string {
 	return c.Name + " " + strings.Join(c.Args, " ")
 }
 
-func NewCommand(name string, args []string, notes string) *Command {
-	return &Command{
+func (c *HubCommand) GetUserName() string {
+	current_user, err := user.Current()
+	if err != nil {
+		PrintStdErr("USER LOOKUP err OCCURRED: ", err)
+	}
+
+	username := current_user.Username
+
+	return username
+}
+
+func NewHubCommand(name string, args []string, notes string) *HubCommand {
+	return &HubCommand{
 		ID:        uuid.New(),
 		Name:      name,
 		Args:      args,

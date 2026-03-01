@@ -6,8 +6,8 @@ import (
 	"strings"
 )
 
-// TODO, add a way for the user to add more Deny Commands
-var DefaultDenyCommands = []string{
+// TODO, add a way for the user to add more Deny HubCommands
+var DefaultDenyHubCommands = []string{
 	"sudo",
 	"rm",
 	"dd",
@@ -26,10 +26,10 @@ var DefaultDenyCommands = []string{
 	"umount",
 	"iptables",
 	"cat",
-	"echo", // users do not directly ask for what they want to see, valid commands/programs control output
+	"echo", // users do not directly ask for what they want to see, valid HubCommands/programs control output
 }
 
-// TODO, add a way for the user to add more Deny Commands
+// TODO, add a way for the user to add more Deny HubCommands
 var DefaultDenyPatterns = []string{
 	"rm -rf /",
 	"rm -rf /*",
@@ -52,17 +52,17 @@ var DefaultProtectedPaths = []string{
 	"/dev",
 }
 
-type CommandScrubber interface {
-	Scrub(cmd Command) error
+type HubCommandScrubber interface {
+	Scrub(cmd HubCommand) error
 }
 
 type ScrubPolicy struct {
-	DenyCommands   []string
-	DenyPatterns   []string
-	ProtectedPaths []string
+	DenyHubCommands []string
+	DenyPatterns    []string
+	ProtectedPaths  []string
 
-	AllowCommands []string // optional allowlist mode
-	AllowMode     bool
+	AllowHubCommands []string // optional allowlist mode
+	AllowMode        bool
 }
 
 type DefaultScrubber struct {
@@ -72,30 +72,30 @@ type DefaultScrubber struct {
 func NewDefaultScrubber() *DefaultScrubber {
 	return &DefaultScrubber{
 		Policy: ScrubPolicy{
-			DenyCommands:   DefaultDenyCommands,
-			DenyPatterns:   DefaultDenyPatterns,
-			ProtectedPaths: DefaultProtectedPaths,
-			AllowMode:      false,
+			DenyHubCommands: DefaultDenyHubCommands,
+			DenyPatterns:    DefaultDenyPatterns,
+			ProtectedPaths:  DefaultProtectedPaths,
+			AllowMode:       false,
 		},
 	}
 }
 
 func (s *DefaultScrubber) Scrub(
-	cmd *Command,
+	cmd *HubCommand,
 ) error {
 
 	name := strings.ToLower(cmd.Name)
 
 	// ---- Allowlist Mode ----
 	if s.Policy.AllowMode {
-		if !slices.Contains(s.Policy.AllowCommands, name) {
-			return errors.New("command not in allowlist")
+		if !slices.Contains(s.Policy.AllowHubCommands, name) {
+			return errors.New("HubCommand not in allowlist")
 		}
 	}
 
-	// ---- Deny Command ----
-	if slices.Contains(s.Policy.DenyCommands, name) {
-		return errors.New("command denied by policy: " + name)
+	// ---- Deny HubCommand ----
+	if slices.Contains(s.Policy.DenyHubCommands, name) {
+		return errors.New("HubCommand denied by policy: " + name)
 	}
 
 	// ---- Argument String ----
@@ -106,7 +106,7 @@ func (s *DefaultScrubber) Scrub(
 	for _, pattern := range s.Policy.DenyPatterns {
 		if strings.Contains(full, pattern) {
 			return errors.New(
-				"command contains dangerous pattern: " + pattern,
+				"HubCommand contains dangerous pattern: " + pattern,
 			)
 		}
 	}
