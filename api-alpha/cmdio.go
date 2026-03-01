@@ -4,7 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"log"
-	"net"
 	"os"
 	"strings"
 
@@ -70,46 +69,6 @@ func (io *CmdIOHelper) ParseHubCommands(fileName string) []*HubCommand {
 	}
 
 	return HubCommands
-}
-
-// remove in beta
-func (io *CmdIOHelper) getHostIpConfig() (string, error) {
-	addrs, err := net.InterfaceAddrs()
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	var ipAddrStr string
-
-	var IPV4or6 string
-	var IPError error
-
-	for _, addr := range addrs {
-		// Check the address type
-		if ipnet, ok := addr.(*net.IPNet); ok {
-			// See if it's a valid IPV4 loopback
-			/*if ipnet.IP.To4() != nil && ipnet.IP.IsLoopback() {
-				IPV4or6 = ipnet.IP.String()
-				IPError = nil
-				ipAddrStr = fmt.Sprintf("Loopback: %s\n", IPV4or6)
-			}*/
-			// Check if IPV4 or IPV6 and assign to builder
-			if ipnet.IP.To4() != nil && !ipnet.IP.IsLoopback() {
-				IPV4or6 = ipnet.IP.String()
-				IPError = nil
-				ipAddrStr = fmt.Sprintf("Host IPv4 Address: %s\n", IPV4or6)
-			} else if ipnet.IP.To16() != nil && !ipnet.IP.IsLoopback() {
-				IPV4or6 = ipnet.IP.String()
-				IPError = nil
-				ipAddrStr = fmt.Sprintf("Host IPv6 Address: %s\n", IPV4or6)
-			}
-
-		} else { // Finally, no valid addresses and/or something is !ok
-			IPError = errors.New("ERR - IP RETRIEVAL")
-			return string(""), IPError
-		}
-	}
-	return ipAddrStr, IPError
 }
 
 // ANSI SQL LEFT style substring

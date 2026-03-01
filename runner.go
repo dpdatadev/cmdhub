@@ -1,5 +1,7 @@
 package main
 
-func main() {
+// Simplest version
 
+func main() {
+	//TODO
 }
