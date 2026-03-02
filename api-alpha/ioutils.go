@@ -31,7 +31,7 @@ func (io *CmdIOHelper) ParseHubCommands(fileName string) []*HubCommand {
 	//Check file extension (replace with YAML in BETA)
 	if !strings.HasSuffix(fileName, ".txt") {
 		PrintFailure("Invalid file type: %s\n", fileName)
-		log.Println("Only .TXT files supported at this time for parsing (alpha v0.1)")
+		log.Println("Only .TXT files supported at this time for parsing (alpha v0.1).\nYAML will be the default in upcoming versions.")
 		return []*HubCommand{}
 	}
 
@@ -45,30 +45,29 @@ func (io *CmdIOHelper) ParseHubCommands(fileName string) []*HubCommand {
 	defer file.Close()
 
 	// Process the file
-	buf := make([]byte, 1024)
-	n, err := file.Read(buf)
+	buf := make([]byte, 1024) //Start with 1MB buffer
+	n, err := file.Read(buf)  //Read contents of file
 	if err != nil {
 		PrintFailure("Error reading file: %v\n", err)
 		return []*HubCommand{}
 	}
-	HubCommandData := string(buf[:n])
-	HubCommands := make([]*HubCommand, 0, len(HubCommandData))
-	HubCommandLines := strings.SplitSeq(HubCommandData, "\n")
+	HubCommandData := string(buf[:n])                          //Convert buffer to string
+	HubCommands := make([]*HubCommand, 0, len(HubCommandData)) //Create slice of HubCommands to populate
+	HubCommandLines := strings.SplitSeq(HubCommandData, "\n")  //We will iterate over each line
 	for cmd := range HubCommandLines {
-		//TODO, eventually handling TOML or YAML or Proc files, not plain .txt
-		//ignore commented out HubCommands
-		if !strings.HasPrefix(cmd, "//") && !strings.HasPrefix(cmd, "##") { //TODO, test coverage
-			cmdFields := strings.Fields(cmd)
-			cmdName := cmdFields[0]
-			cmdArgs := cmdFields[1:]
+		//Ignore commented out HubCommands
+		if !strings.HasPrefix(cmd, "//") && !strings.HasPrefix(cmd, "##") {
+			cmdFields := strings.Fields(cmd) //Each white space separated word
+			cmdName := cmdFields[0]          //First word is always the Program.
+			cmdArgs := cmdFields[1:]         //Starting at position 1, get each word (Arguments)
 			cmdNotes := fmt.Sprintf("Ingested from %s", fileName)
-			HubCommand := NewHubCommand(cmdName, cmdArgs, cmdNotes)
-			HubCommands = append(HubCommands, HubCommand)
-			PrintDebug("Ingested HubCommand: %s, Args: %v\n", cmdName, cmdArgs)
+			HubCommand := NewHubCommand(cmdName, cmdArgs, cmdNotes)             //Create the HubCommand
+			HubCommands = append(HubCommands, HubCommand)                       //Save it
+			PrintDebug("Ingested HubCommand: %s, Args: %v\n", cmdName, cmdArgs) //Print it
 		}
 	}
 
-	return HubCommands
+	return HubCommands //Now off to the races
 }
 
 // ANSI SQL LEFT style substring

@@ -21,10 +21,10 @@ type ExecutionResult struct {
 
 	StartedAt time.Time
 	EndedAt   time.Time
-	Duration  time.Duration // TODO, we should handle this somewhere, important info
+	Duration  time.Duration
 }
 
-// Define the Executor contract for the Service layer. All HubCommands are Executed by Executors.
+// Define the Executor contract for the Service layer.
 type HubCommandExecutor interface {
 	Execute(
 		ctx context.Context,
@@ -37,6 +37,11 @@ type BaseExecutor struct{}
 // Local (not Remote) HubCommand Executor (Default)
 // os.StartProcess
 type LocalExecutor struct {
+	BaseExecutor
+}
+
+// TODO, BETA
+type SSHExecutor struct {
 	BaseExecutor
 }
 
@@ -79,6 +84,7 @@ func NewLocalExecutor() *LocalExecutor {
 // and cross platform support.
 func (e *LocalExecutor) xExecute(
 	ctx context.Context,
+	//Pass custom configured execx.Cmd
 	cmd *execx.Cmd, debug bool,
 ) (*ExecutionResult, error) {
 
@@ -100,44 +106,33 @@ func (e *LocalExecutor) xExecute(
 
 	end := time.Now()
 
-	result.Stderr = res.Stdout
+	result.Stdout = res.Stdout
 	result.Stderr = res.Stderr
 	result.ExitCode = res.ExitCode
 	result.EndedAt = end
 	result.Duration = end.Sub(start)
 
 	if debug {
-		log.SetPrefix(":execx")
-		log.SetFlags(0)
-
-		log.Printf("Stdout: %q\n", res.Stdout)
-		log.Printf("Stderr: %q\n", res.Stderr)
-		log.Printf("ExitCode: %d\n", res.ExitCode)
-		log.Printf("Error: %v\n", res.Err)
-		log.Printf("Duration: %v\n", res.Duration)
-		go e.debugDump(NewHubCommand(fmt.Sprintf("execx Cmd: %s", cmd.String()), []string{cmd.Args()[0]}, res.Stdout), result, "executions.log")
+		PrintDebug("Stdout: %q\n", res.Stdout)
+		PrintDebug("Stderr: %q\n", res.Stderr)
+		PrintDebug("ExitCode: %d\n", res.ExitCode)
+		PrintDebug("Error: %v\n", res.Err)
+		PrintDebug("Duration: %v\n", res.Duration)
+		go e.debugDump(NewHubCommand(fmt.Sprintf("execx Cmd: %s", cmd.String()), []string{cmd.Args()[0]}, result.Stdout), result, "executions.log")
 	}
 
 	return result, err
 }
 
+// Default Hub Command API
 func (e *LocalExecutor) Execute(
 	ctx context.Context,
 	cmd *HubCommand, debug bool,
 ) (*ExecutionResult, error) {
 
-	//https://gobyexample.com/execing-processes
-	//exclude binary, just checking to see if the program is installed on host
-	_, notInstalled := exec.LookPath(cmd.Name)
-
-	if notInstalled != nil {
-		return nil, fmt.Errorf("ERR:: %s PROGRAM NOT INSTALLED", cmd.Name)
-	}
-
-	//execx api detected - treat differently
-	//TODO - handle this differently, preferably with generics, or factory.
-	if cmd.xCmd != nil {
-		return e.xExecute(ctx, cmd.xCmd, true)
+	//temporary, kinda hacky
+	if cmd.XCmd != nil {
+		return e.xExecute(ctx, cmd.XCmd, true)
 	}
 
 	start := time.Now()
@@ -174,74 +169,4 @@ func (e *LocalExecutor) Execute(
 	}
 
 	return result, err
-}
-
-//To avoid breaking changes on pre-alpha 1 we are going to just add
-//the execx functionality as a separate call so I can use new execx or built-in command structure
-//Learn more about how I should redirect execx standard output (3-1)
-/*
-func (le *LocalExecutor) xExecute(ctx context.Context,
-	cmd *execx.Cmd, debug bool) (*ExecutionResult, error) {
-	start := time.Now()
-
-	res, err := execx.
-		Command("printf", "hello\nworld\n").
-		Pipe("tr", "a-z", "A-Z").
-		Env("MODE=demo").
-		WithContext(ctx).
-		OnStdout(func(line string) {
-			fmt.Println("OUT:", line)
-		}).
-		OnStderr(func(line string) {
-			fmt.Println("ERR:", line)
-		}).
-		Run()
-
-	if !res.OK() {
-		log.Fatalf("HubCommand failed: %v", err)
-	}
-
-	fmt.Printf("Stdout: %q\n", res.Stdout)
-	fmt.Printf("Stderr: %q\n", res.Stderr)
-	fmt.Printf("ExitCode: %d\n", res.ExitCode)
-	fmt.Printf("Error: %v\n", res.Err)
-	fmt.Printf("Duration: %v\n", res.Duration)
-}
-*/
-
-func execxTest() {
-	// Run executes the HubCommand and returns the result and any error.
-
-	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
-	defer cancel()
-
-	res, err := execx.
-		Command("printf", "hello\nworld\n").
-		Pipe("tr", "a-z", "A-Z").
-		Env("MODE=demo").
-		WithContext(ctx).
-		OnStdout(func(line string) {
-			fmt.Println("OUT:", line)
-		}).
-		OnStderr(func(line string) {
-			fmt.Println("ERR:", line)
-		}).
-		Run()
-
-	if !res.OK() {
-		log.Fatalf("HubCommand failed: %v", err)
-	}
-
-	fmt.Printf("Stdout: %q\n", res.Stdout)
-	fmt.Printf("Stderr: %q\n", res.Stderr)
-	fmt.Printf("ExitCode: %d\n", res.ExitCode)
-	fmt.Printf("Error: %v\n", res.Err)
-	fmt.Printf("Duration: %v\n", res.Duration)
-	// OUT: HELLO
-	// OUT: WORLD
-	// Stdout: "HELLO\nWORLD\n"
-	// Stderr: ""
-	// ExitCode: 0
-	// Error: <nil>
-	// Duration: 10.123456ms
 }

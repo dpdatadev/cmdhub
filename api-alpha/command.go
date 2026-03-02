@@ -20,11 +20,11 @@ const (
 
 const (
 	_ = iota
-	HubCommandType_NIL
-	HubCommandType_TEXT
-	HubCommandType_WEB
-	HubCommandType_DATA
-	HubCommandType_OTHER
+	CommandType_NIL
+	CommandType_TEXT
+	CommandType_WEB
+	CommandType_DATA
+	CommandType_OTHER
 )
 
 /*
@@ -55,7 +55,7 @@ type HubCommand struct {
 		or, if xCmd is present, run fluent go4J Execx Cmd
 		See: https://github.com/goforj/execx
 	*/
-	xCmd *execx.Cmd
+	XCmd *execx.Cmd
 }
 
 func (c *HubCommand) ExecString() string {
@@ -90,7 +90,7 @@ func NewxHubCommand(name string, args []string, cmd *execx.Cmd, notes string) *H
 		Name:      name,
 		Args:      args,
 		Notes:     notes,
-		xCmd:      cmd,
+		XCmd:      cmd,
 		Status:    StatusPending,
 		CreatedAt: time.Now(),
 	}

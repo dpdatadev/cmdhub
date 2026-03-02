@@ -12,7 +12,7 @@ func getDefaultCtx() (context.Context, context.CancelFunc) {
 }
 
 // Helper/Testing function to run multiple Commands
-func MultiExec( //TODO
+func MultiExec(
 	svc *hub.HubCommandService,
 	ctx context.Context,
 	cmds []*hub.HubCommand, debug bool,

@@ -10,7 +10,7 @@ import (
 // The service handles implementation specific details and communication.
 type HubCommandService struct {
 	//Service
-	Store    HubCommandStore
+	Store    HubCommandStore //SQLITE, Redis, Postgres, DuckDB, who cares!
 	Executor HubCommandExecutor
 }
 
