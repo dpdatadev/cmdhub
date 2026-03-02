@@ -16,3 +16,618 @@ world
  hello
 world
 
+2026/03/01 19:10:16 HubCommand ID: ca8b5c88-3f63-43f3-83fd-406d446238c9
+2026/03/01 19:10:16 HubCommand Name: echo "Hello, World"
+2026/03/01 19:10:16 HubCommand Args: [echo Hello, World]
+2026/03/01 19:10:16 Status: SUCCESS
+2026/03/01 19:10:16 STDOUT:
+ Hello, World
+
+CMD RUNNER::>HubCommand ID: 8b15d398-4f42-42cc-8c68-a3bacd8c11b6
+CMD RUNNER::>HubCommand Name: echo HelloWorld
+CMD RUNNER::>HubCommand Args: []
+CMD RUNNER::>Status: SUCCESS
+CMD RUNNER::>STDOUT:
+ HelloWorld
+
+CMD::>HubCommand ID: d2e9fa9d-4ad2-4b18-abe8-4764bee8b008
+CMD::>HubCommand Name: echo HelloWorld
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ HelloWorld
+
+CMD::>HubCommand ID: d3b31b5b-5a8b-4307-8990-b4f58f74f5b7
+CMD::>HubCommand Name: echo HelloWorld
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ HelloWorld
+
+CMD::>HubCommand ID: 0ee77759-a492-4117-8f9e-30a4fa411d3e
+CMD::>HubCommand Name: echo HelloWorld
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ HelloWorld
+
+CMD::>HubCommand ID: ad2eb08b-47cc-49de-bdea-fa6f62cc744f
+CMD::>HubCommand Name: sudo netstat 
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ 
+CMD::>HubCommand ID: 014fd392-2bfc-4d3c-89ed-a0f797cec53f
+CMD::>HubCommand ID: 14e16c9c-a768-4770-a4f9-c3766d12ec84
+CMD::>HubCommand ID: 877268aa-9a66-4d22-84ee-382c25ea640b
+CMD::>HubCommand ID: 7293d22f-b17d-4ebc-a096-592fb82497b2
+CMD::>HubCommand ID: 9a76fcdd-4ace-40dc-b705-8212381e9d28
+CMD::>HubCommand ID: 32aa4db6-f371-42d0-b47a-41b014e5ac17
+CMD::>HubCommand ID: 9fa4bd57-c010-479c-b8c8-300f856d2a69
+CMD::>HubCommand ID: 8ce32216-d7ca-4748-a57b-8f4f275413f7
+CMD::>HubCommand ID: 2837785f-3c27-4f92-bde1-dfb923ca9220
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: RUNNING
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 9d4429a4-f718-4013-bcdd-39f6aa2745da
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 04e92f0b-4a0e-4735-9d66-33d75ec78705
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 9daeb65e-fa3e-4573-a783-ede661b32ca9
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 9a55c623-0697-4916-8435-e43e0cd0293d
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 02559a57-b693-4f66-b021-6fd2289f30e7
+CMD::>HubCommand Name: cat misc.txt
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+ If we change direction with the exec project I've been working on - it may be a series of utilities/command line programs to wrap regular shell commands:
+
+execr ip neighbor show
+
+^^^
+
+The command has now been registered and will now be tracked/audited, allowing ops teams to tag and track ad-hoc operations. This will be useful if we need additional audit trails or point in time state replication.
+
+
+
+
+
+
+
+
+
+
+
+Current Architecture as of Early Alpha:
+				 				 __api/REST  JSON/Web UI
+Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
+						--			      
+				SQLITE		---	   RDBMS/IOFile
+				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
+																		
+CMD::>HubCommand ID: 5086a478-d414-4bf0-80c4-92778bb2a905
+CMD::>HubCommand ID: 6d08eb70-94c9-4ec0-80ec-3f549eab6883
+CMD::>HubCommand Name: lynx "-dump -nolist https://news.ycombinator.com/"
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+      [ [1]About Lynx-Dev | [2]Lynx-Dev Archives ]
+
+About Lynx
+
+   Lynx is a fully-featured World Wide Web (WWW) browser for users on
+   Unix, VMS, and other platforms running cursor-addressable,
+   character-cell terminals or emulators. That includes vt100 terminals,
+   other character-cell displays, and vt100 emulators such as Kermit or
+   Procomm running on PCs or Macs.
+
+   For information on how to use Lynx see the [3]Lynx User's Guide, or the
+   [4]Lynx help files.
+
+Credits and Copyright
+
+   Lynx was a product of the Distributed Computing Group within Academic
+   Computing Services of [5]The University of Kansas.
+
+   Lynx was originally developed by [6]Lou Montulli, [7]Michael Grobe, and
+   [8]Charles Rezac. [9]Garrett Blythe created [10]DosLynx and later
+   joined the Lynx effort as well. Following the departures of Lou and
+   Garrett for positions at Netscape in the summer of 1994, Craig Lavender
+   provided support services for Lynx, and Ravikumar Kolli for DosLynx.
+
+   Lynx is maintained and supported by members of the Internet community
+   coordinated via the [11]lynx-dev mailing list.
+
+   Lynx is derived from material copyrighted by the University of Kansas.
+   However most of the release (and corresponding copyright) is the work
+   of developers on the [12]lynx-dev mailing list. It is distributed
+   without restrictions on usage or redistribution under the GNU General
+   Public License (Version 2).
+
+   Lynx was built over an early version of the Common Code Library
+   developed by the CERN WWW Project. That code is copyrighted by CERN.
+   Lynx contains other sections of code that are copyrighted by other
+   institutions or individuals. The Lynx copyright does not override or
+   invalidate those copyrights.
+
+   Thanks to [13]Tim Berners-Lee and the other [14]CERN World Wide Web
+   wizards for the WWW client library code and all of their other work on
+   the WWW project, NCSA and the [15]Mosaic developers, and to everyone
+   out in netland who has contributed to Lynx's development either
+   directly (through comments or bug reports) or indirectly (through
+   inspiration and development of other systems).
+
+   Also, special thanks go to Foteos Macrides who ported much of Lynx to
+   VMS and did much of its development following Lou Montulli's and
+   Garrett Blythe's departures from the University of Kansas, and to Earl
+   Fogel of the University of Saskatchewan. Earl implemented the hypertext
+   engine HYPERREZ in the Unix environment. HYPERREZ was developed by Niel
+   Larson of Think.com and served as the model for the early versions of
+   Lynx which did not use the WWW libraries and had their own hypertext
+   format.
+
+Availability
+
+   Information on obtaining the most current version of Lynx is available
+   via the [16]Lynx homepage.
+
+Mailing List
+
+   We have a mailing list for Lynx development discussion. If you are
+   interested in joining the list, follow this [17]link. There also are
+   links to [18]archives in html format for this mailing list.
+
+References
+
+   1. file:///usr/share/doc/lynx/lynx_help/lynx-dev.html.gz
+   2. http://mail.gnu.org/mailman/listinfo/lynx-dev/
+   3. file:///usr/share/doc/lynx/lynx_help/Lynx_users_guide.html.gz
+   4. file:///usr/share/doc/lynx/lynx_help/lynx_help_main.html.gz
+   5. http://web.archive.org/web/19971210163627/http://www.cc.ukans.edu/
+   6. http://web.archive.org/web/20040309105337/http://www.cc.ukans.edu/cwis/people/Lou.Montulli.html
+   7. http://condor.cc.ku.edu/~grobe/
+   8. http://web.archive.org/web/20040412210202/http://www.cc.ukans.edu/cwis/people/Charles.Rezac.html
+   9. http://web.archive.org/web/20040412210651/http://www.cc.ukans.edu/cwis/people/Garrett/Garrett_Arch_Blythe.html
+  10. http://web.archive.org/web/20040812204015/http://www.cc.ukans.edu/about_doslynx/doslynx.html
+  11. file:///usr/share/doc/lynx/lynx_help/about_lynx.html.gz#lynx-dev_list
+  12. file:///usr/share/doc/lynx/lynx_help/about_lynx.html.gz#lynx-dev_list
+  13. http://www.w3.org/People/Berners-Lee/
+  14. http://www.w3.org/People.html
+  15. http://archive.ncsa.uiuc.edu/SDG/Software/Mosaic/NCSAMosaicHome.html
+  16. https://lynx.invisible-island.net/
+  17. file:///usr/share/doc/lynx/lynx_help/lynx-dev.html.gz
+  18. http://mail.gnu.org/mailman/listinfo/lynx-dev/
+
+CMD::>HubCommand ID: bf43a2df-4ab3-4500-aa9e-e931d4205052
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>HubCommand Args: []
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   How to talk to anyone, and why you should (theguardian.com)
+   423 points by Looky1173 6 hours ago | hide | 202 comments
+   2.
+
+   WebMCP is available for early preview (chrome.com)
+   114 points by andsoitis 3 hours ago | hide | 71 comments
+   3.
+
+   Tove Jansson's criticized illustrations of The Hobbit (tovejansson.com)
+   70 points by abelanger 3 hours ago | hide | 33 comments
+   4.
+
+   Ghostty – Terminal Emulator (ghostty.org)
+   610 points by oli5679 13 hours ago | hide | 273 comments
+   5.
+
+   Little Free Library Books (littlefreelibrary.org)
+   42 points by TigerUniversity 3 hours ago | hide | 8 comments
+   6.
+
+   How Next-Gen Spacecraft Are Overwhelming Our Communication Networks
+   (atempleton.bearblog.dev)
+   23 points by korrz 3 hours ago | hide | 1 comment
+   7.
+
+   When does MCP make sense vs CLI? (ejholmes.github.io)
+   259 points by ejholmes 8 hours ago | hide | 175 comments
+   8.
+
+   What Your DNA Reveals about the Sex Life of Neanderthals (nytimes.com)
+   15 points by Hooke 2 hours ago | hide | 4 comments
+   9.
+
+   Microgpt explained interactively (growingswe.com)
+   193 points by growingswe 6 hours ago | hide | 24 comments
+   10.
+
+   Decision trees – the unreasonable power of nested decision rules
+   (mlu-explain.github.io)
+   397 points by mschnell 16 hours ago | hide | 69 comments
+   11.
+
+   Long Range E-Bike (2021) (jacquesmattheij.com)
+   113 points by birdculture 10 hours ago | hide | 154 comments
+   12.
+
+   Chorba: A novel CRC32 implementation (2024) (arxiv.org)
+   44 points by fnands 6 hours ago | hide | 13 comments
+   13.
+
+   Setting up phones is a nightmare (joelchrono.xyz)
+   109 points by bariumbitmap 11 hours ago | hide | 122 comments
+   14.
+
+   Allegations of insider trading over prediction-market bets tied to Iran
+   conflict (morningstar.com)
+   47 points by paulpauper 3 hours ago | hide | 23 comments
+   15.
+
+   Programming in K (github.com/johnearnest)
+   42 points by tosh 5 hours ago | hide | 8 comments
+   16.
+
+   Flightradar24 for Ships (flexport.com)
+   185 points by chromy 14 hours ago | hide | 43 comments
+   17.
+
+   Microgpt (karpathy.github.io)
+   1691 points by tambourine_man 1 day ago | hide | 293 comments
+   18.
+
+   Interview with Øyvind Kolås, GIMP developer (2017) (gimp.org)
+   124 points by ibobev 14 hours ago | hide | 54 comments
+   19.
+
+   I built a demo of what AI chat will look like when it's "free" and
+   ad-supported (99helpers.com)
+   466 points by nickk81 14 hours ago | hide | 267 comments
+   20.
+
+   Are the Mysteries of Quantum Mechanics Beginning to Dissolve?
+   (quantamagazine.org)
+   69 points by wjb3 4 hours ago | hide | 77 comments
+   21.
+
+   Python Type Checker Comparison: Empty Container Inference (pyrefly.org)
+   55 points by ocamoss 9 hours ago | hide | 38 comments
+   22.
+
+   Why XML tags are so fundamental to Claude (glthr.com)
+   159 points by glth 11 hours ago | hide | 114 comments
+   23.
+
+   South Korean Police Lose Seized Crypto by Posting Password Online
+   (gizmodo.com)
+   58 points by WarOnPrivacy 4 hours ago | hide | 11 comments
+   24.
+
+   Operational issue – Multiple services (UAE) (amazon.com)
+   165 points by earthboundkid 6 hours ago | hide | 72 comments
+   25.
+
+   Gzpeek: Tool to Parse Gzip Metadata (evanhahn.com)
+   34 points by ingve 7 hours ago | hide | 1 comment
+   26.
+
+   10-202: Introduction to Modern AI (CMU) (modernaicourse.org)
+   224 points by vismit2000 18 hours ago | hide | 50 comments
+   27.
+
+   Show HN: Audio Toolkit for Agents (github.com/shiehn)
+   51 points by stevehiehn 10 hours ago | hide | 6 comments
+   28.
+
+   New iron nanomaterial wipes out cancer cells without harming healthy
+   tissue (sciencedaily.com)
+   239 points by gradus_ad 10 hours ago | hide | 80 comments
+   29.
+
+   How the Government Deceived Congress in the Debate over Surveillance
+   Powers (2013) (eff.org)
+   76 points by doener 4 hours ago | hide | 6 comments
+   30.
+
+   Obsidian Sync now has a headless client (help.obsidian.md)
+   565 points by adilmoujahid 1 day ago | hide | 203 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 51c8ffd1-5bb2-42d8-acfe-b5a9c78f15d3
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   How to talk to anyone, and why you should (theguardian.com)
+   431 points by Looky1173 6 hours ago | hide | 208 comments
+   2.
+
+   WebMCP is available for early preview (chrome.com)
+   119 points by andsoitis 3 hours ago | hide | 78 comments
+   3.
+
+   Tove Jansson's criticized illustrations of The Hobbit (tovejansson.com)
+   77 points by abelanger 4 hours ago | hide | 34 comments
+   4.
+
+   Ghostty – Terminal Emulator (ghostty.org)
+   614 points by oli5679 13 hours ago | hide | 276 comments
+   5.
+
+   Little Free Library Books (littlefreelibrary.org)
+   43 points by TigerUniversity 3 hours ago | hide | 12 comments
+   6.
+
+   How Next-Gen Spacecraft Are Overwhelming Our Communication Networks
+   (atempleton.bearblog.dev)
+   27 points by korrz 3 hours ago | hide | 3 comments
+   7.
+
+   When does MCP make sense vs CLI? (ejholmes.github.io)
+   264 points by ejholmes 9 hours ago | hide | 178 comments
+   8.
+
+   What Your DNA Reveals about the Sex Life of Neanderthals (nytimes.com)
+   20 points by Hooke 2 hours ago | hide | 5 comments
+   9.
+
+   Microgpt explained interactively (growingswe.com)
+   194 points by growingswe 7 hours ago | hide | 29 comments
+   10.
+
+   Decision trees – the unreasonable power of nested decision rules
+   (mlu-explain.github.io)
+   397 points by mschnell 17 hours ago | hide | 69 comments
+   11.
+
+   Long Range E-Bike (2021) (jacquesmattheij.com)
+   114 points by birdculture 10 hours ago | hide | 158 comments
+   12.
+
+   Chorba: A novel CRC32 implementation (2024) (arxiv.org)
+   44 points by fnands 6 hours ago | hide | 15 comments
+   13.
+
+   Setting up phones is a nightmare (joelchrono.xyz)
+   111 points by bariumbitmap 11 hours ago | hide | 122 comments
+   14.
+
+   Allegations of insider trading over prediction-market bets tied to Iran
+   conflict (morningstar.com)
+   51 points by paulpauper 3 hours ago | hide | 24 comments
+   15.
+
+   Flightradar24 for Ships (flexport.com)
+   188 points by chromy 15 hours ago | hide | 43 comments
+   16.
+
+   Programming in K (github.com/johnearnest)
+   43 points by tosh 5 hours ago | hide | 9 comments
+   17.
+
+   Microgpt (karpathy.github.io)
+   1695 points by tambourine_man 1 day ago | hide | 293 comments
+   18.
+
+   Why XML tags are so fundamental to Claude (glthr.com)
+   162 points by glth 11 hours ago | hide | 114 comments
+   19.
+
+   Show HN: Vibe Code your 3D Models (github.com/ierror)
+   6 points by burrnii 1 hour ago | hide | discuss
+   20.
+
+   Interview with Øyvind Kolås, GIMP developer (2017) (gimp.org)
+   125 points by ibobev 14 hours ago | hide | 54 comments
+   21.
+
+   I built a demo of what AI chat will look like when it's "free" and
+   ad-supported (99helpers.com)
+   467 points by nickk81 14 hours ago | hide | 267 comments
+   22.
+
+   Python Type Checker Comparison: Empty Container Inference (pyrefly.org)
+   55 points by ocamoss 9 hours ago | hide | 38 comments
+   23.
+
+   South Korean Police Lose Seized Crypto by Posting Password Online
+   (gizmodo.com)
+   61 points by WarOnPrivacy 4 hours ago | hide | 12 comments
+   24.
+
+   Operational issue – Multiple services (UAE) (amazon.com)
+   166 points by earthboundkid 6 hours ago | hide | 72 comments
+   25.
+
+   10-202: Introduction to Modern AI (CMU) (modernaicourse.org)
+   226 points by vismit2000 18 hours ago | hide | 50 comments
+   26.
+
+   Gzpeek: Tool to Parse Gzip Metadata (evanhahn.com)
+   34 points by ingve 7 hours ago | hide | 1 comment
+   27.
+
+   Are the Mysteries of Quantum Mechanics Beginning to Dissolve?
+   (quantamagazine.org)
+   70 points by wjb3 4 hours ago | hide | 82 comments
+   28.
+
+   Show HN: Audio Toolkit for Agents (github.com/shiehn)
+   51 points by stevehiehn 10 hours ago | hide | 6 comments
+   29.
+
+   New iron nanomaterial wipes out cancer cells without harming healthy
+   tissue (sciencedaily.com)
+   242 points by gradus_ad 10 hours ago | hide | 80 comments
+   30.
+
+   How the Government Deceived Congress in the Debate over Surveillance
+   Powers (2013) (eff.org)
+   78 points by doener 5 hours ago | hide | 6 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+

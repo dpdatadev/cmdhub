@@ -142,10 +142,10 @@ func (io *CmdIOHelper) ConsoleDump(cmd *HubCommand) {
 		PrintFailure("Status: %v\n", cmd.Status)
 		PrintStdErr("STDERR: %s::<%s>\n", cmd.Stderr, cmd.Error)
 		//ConsoleStdErrHandle(cmd.Stderr) //TODO
-	} else if cmd.Status == "SUCCESS" {
+	} else if cmd.Stdout != "" && cmd.Status != "FAILED" {
 		PrintIdentity("\nHubCommand ID: %v\n", cmd.ID)
 		PrintIdentity("HubCommand Name: %s\n", cmd.Name)
-		PrintIdentity("HubCommand Args: %s\n", cmd.Args)
+		//PrintIdentity("HubCommand Args: %s\n", cmd.Args)
 		PrintSuccess("Status: %v\n", cmd.Status)
 		PrintStdOut("STDOUT:\n %s\n", cmd.Stdout)
 		fmt.Println()
@@ -173,14 +173,11 @@ func (io *CmdIOHelper) FileDump(cmd *HubCommand, logFileName string) {
 		log.Fatalf("HubCommand Args: %s\n", cmd.Args)
 		log.Fatalf("Status: %v\n", cmd.Status)
 		log.Fatalf("STDERR: %s::<%s>\n", cmd.Stderr, cmd.Error)
-		//ConsoleStdErrHandle(cmd.Stderr) //TODO
-	} else if cmd.Status == "SUCCESS" {
+	} else if cmd.Status != "FAILED" {
 		log.Printf("HubCommand ID: %v\n", cmd.ID)
 		log.Printf("HubCommand Name: %s\n", cmd.Name)
-		log.Printf("HubCommand Args: %s\n", cmd.Args)
 		log.Printf("Status: %v\n", cmd.Status)
 		log.Printf("STDOUT:\n %s\n", cmd.Stdout)
-		//ConsoleStdOutHandle(cmd.Stdout) //TODO
 	} else {
 		PrintFailure("UNKNOWN ERROR OCCURRED: %s\n", cmd.ID.String())
 	}

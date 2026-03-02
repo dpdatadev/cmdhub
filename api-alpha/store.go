@@ -259,7 +259,7 @@ func (s *SQLiteHubCommandStore) SaveBatch(
 			_, err := stmt.ExecContext(
 				ctx,
 				cmd.ID,
-				cmd.ExecString(),
+				cmd.Name,
 				cmd.Status,
 				cmd.CreatedAt,
 			)
@@ -411,7 +411,7 @@ func (s *SQLiteHubCommandStore) Create(
 		ctx,
 		query,
 		cmd.ID,
-		cmd.ExecString(),
+		cmd.Name,
 		cmd.Status,
 		cmd.CreatedAt,
 		cmd.StartedAt,
