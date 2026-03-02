@@ -35,6 +35,7 @@ type HubCommandExecutor interface {
 type BaseExecutor struct{}
 
 // Local (not Remote) HubCommand Executor (Default)
+// os.StartProcess
 type LocalExecutor struct {
 	BaseExecutor
 }
@@ -74,17 +75,56 @@ func NewLocalExecutor() *LocalExecutor {
 	return &LocalExecutor{}
 }
 
+// Execx Fluent API - for advanced piping, complex pipelines,
+// and cross platform support.
+func (e *LocalExecutor) xExecute(
+	ctx context.Context,
+	cmd *execx.Cmd, debug bool,
+) (*ExecutionResult, error) {
+
+	start := time.Now()
+
+	result := &ExecutionResult{
+		StartedAt: start,
+	}
+
+	res, err := cmd.WithContext(ctx).Run()
+
+	if !res.OK() {
+		PrintFailure("HubCommand failed: %v", err)
+	}
+
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	end := time.Now()
+
+	result.Stderr = res.Stdout
+	result.Stderr = res.Stderr
+	result.ExitCode = res.ExitCode
+	result.EndedAt = end
+	result.Duration = end.Sub(start)
+
+	if debug {
+		log.SetPrefix(":execx")
+		log.SetFlags(0)
+
+		log.Printf("Stdout: %q\n", res.Stdout)
+		log.Printf("Stderr: %q\n", res.Stderr)
+		log.Printf("ExitCode: %d\n", res.ExitCode)
+		log.Printf("Error: %v\n", res.Err)
+		log.Printf("Duration: %v\n", res.Duration)
+		go e.debugDump(NewHubCommand(fmt.Sprintf("execx Cmd: %s", cmd.String()), []string{cmd.Args()[0]}, res.Stdout), result, "executions.log")
+	}
+
+	return result, err
+}
+
 func (e *LocalExecutor) Execute(
 	ctx context.Context,
 	cmd *HubCommand, debug bool,
 ) (*ExecutionResult, error) {
-
-	//execx api detected - treat differently
-	/*
-		if cmd.xCmd != nil {
-			return e.xExecute(ctx, cmd.xCmd, true)
-		}
-	*/
 
 	//https://gobyexample.com/execing-processes
 	//exclude binary, just checking to see if the program is installed on host
@@ -92,6 +132,12 @@ func (e *LocalExecutor) Execute(
 
 	if notInstalled != nil {
 		return nil, fmt.Errorf("ERR:: %s PROGRAM NOT INSTALLED", cmd.Name)
+	}
+
+	//execx api detected - treat differently
+	//TODO - handle this differently, preferably with generics, or factory.
+	if cmd.xCmd != nil {
+		return e.xExecute(ctx, cmd.xCmd, true)
 	}
 
 	start := time.Now()

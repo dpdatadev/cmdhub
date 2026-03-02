@@ -2,23 +2,17 @@ package main
 
 import (
 	"context"
-	"database/sql"
 	hub "dpdigital/cmdhub/api-alpha"
-	"fmt"
 	"sync"
+	"time"
 )
 
-func getDatabase() (*sql.DB, error) {
-	db, err := sql.Open("sqlite3", "runner.db")
-
-	if err != nil {
-		return nil, fmt.Errorf("DB NOT OPEN: %v", err)
-	}
-
-	return db, nil
+func getDefaultCtx() (context.Context, context.CancelFunc) {
+	return context.WithTimeout(context.Background(), 10*time.Second)
 }
 
-func RunCommands(
+// Helper/Testing function to run multiple Commands
+func CommandRunner(
 	svc *hub.HubCommandService,
 	ctx context.Context,
 	cmds []*hub.HubCommand, debug bool,

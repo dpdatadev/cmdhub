@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 //BETA:
@@ -90,7 +91,7 @@ func (s *SQLiteHubCommandStore) GetAll(
             stdout,
             stderr,
             exit_code
-        FROM HubCommands
+        FROM Commands
         ORDER BY created_at DESC
     `
 
@@ -142,7 +143,7 @@ func (s *SQLiteHubCommandStore) GetByID(
             stdout,
             stderr,
             exit_code
-        FROM HubCommands
+        FROM Commands
         WHERE uuid = ?
         LIMIT 1
     `
@@ -182,7 +183,7 @@ func (s *SQLiteHubCommandStore) Update(
 ) error {
 
 	query := `
-        UPDATE HubCommands
+        UPDATE Commands
         SET
             name = ?,
             status = ?,
@@ -241,7 +242,7 @@ func (s *SQLiteHubCommandStore) SaveBatch(
 	}
 
 	stmt, err := tx.PrepareContext(ctx, `
-        INSERT INTO HubCommands (
+        INSERT INTO Commands (d
             id, name, status, created_at
         )
         VALUES (?, ?, ?, ?)
@@ -279,7 +280,7 @@ func (s *SQLiteHubCommandStore) MarkStarted(
 ) error {
 
 	query := `
-        UPDATE HubCommands
+        UPDATE Commands
         SET
             status = 'RUNNING',
             started_at = ?
@@ -306,7 +307,7 @@ func (s *SQLiteHubCommandStore) MarkFinished(
 ) error {
 
 	query := `
-        UPDATE HubCommands
+        UPDATE Commands
         SET
             status = 'COMPLETED',
             finished_at = ?,
@@ -345,7 +346,7 @@ func (s *SQLiteHubCommandStore) GetRecent(
             stdout,
             stderr,
             exit_code        
-			FROM HubCommands
+			FROM Commands
         ORDER BY created_at DESC
         LIMIT ?
     `
@@ -392,7 +393,7 @@ func (s *SQLiteHubCommandStore) Create(
 	}
 
 	query := `
-        INSERT INTO HubCommands (
+        INSERT INTO Commands (
             uuid,
             name,
             status,

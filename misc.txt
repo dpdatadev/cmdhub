@@ -19,7 +19,7 @@ The command has now been registered and will now be tracked/audited, allowing op
 Current Architecture as of Early Alpha:
 				 				 __api/REST  JSON/Web UI
 Runner (SSH/HTTP/Process) <--> CmdLine Tool / RPC Call --> 	 ^	    
-	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut        ^^
+	>	Service --> (Execute/Log/Persist/Track)--> Output/StdOut
 						--			      
 				SQLITE		---	   RDBMS/IOFile
 				DUCKDB		---------> Audit (Lineage)--->SQL-->Reports
