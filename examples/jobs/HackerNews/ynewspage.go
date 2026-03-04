@@ -14,7 +14,6 @@ an SSH Proxy command (easySSH).
 
 Don't worry, you're going to bypass all this in practice by just using the Hub CLI tool. :D
 */
-
 import (
 	hub "dpdigital/cmdhub/api-alpha"
 	"dpdigital/cmdhub/examples/jobs"
@@ -23,6 +22,16 @@ import (
 	"time"
 
 	"github.com/goforj/execx"
+)
+
+// This could be loaded via JSON, RPC, RDBMS, or YAML.
+var (
+	CMD  = "lynx"
+	ARGS = []string{
+		"-dump",
+		"-nolist",
+		"https://news.ycombinator.com/",
+	}
 )
 
 func Dump() {
@@ -51,7 +60,7 @@ func Dump() {
 	//Execx fluent api for pipelining commands
 	//and flexibly redirecting output
 	res := execx.
-		Command("lynx", "-dump", "-nolist", "https://news.ycombinator.com/").
+		Command(CMD, ARGS...).
 		WithContext(ctx).
 		//Callback functions to redirect outputs
 		OnStdout(func(line string) {
@@ -67,7 +76,7 @@ func Dump() {
 	//Since we are using a third party command, we just copy the fields and put a note.
 	dbCmd := hub.NewHubCommand(res.String(), []string{}, "execx command")
 
-	//You could bypass all the code below by just using the service and attach dbCmd to it like this:
+	//You could bypass all the code below by just using the Command service and attach dbCmd to it like this:
 	//dbCmd.XCmd = res // :)
 
 	//Start the clock
