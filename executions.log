@@ -932,3 +932,291 @@ CMD::>STDOUT:
                                    Contact
                           Search: _________________
 
+CMD::>HubCommand ID: 3e19c1f4-a38c-4506-bb7b-435a840c8bcc
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Don't Make Me Talk to Your Chatbot (raymyers.org)
+   86 points by pkilgore 59 minutes ago | hide | 35 comments
+   2.
+
+   MacBook Pro with new M5 Pro and M5 Max (apple.com)
+   606 points by scrlk 9 hours ago | hide | 570 comments
+   3.
+
+   Intel's make-or-break 18A process node debuts for data center with
+   288-core Xeon (tomshardware.com)
+   213 points by vanburen 4 hours ago | hide | 161 comments
+   4.
+
+   GPT‑5.3 Instant (openai.com)
+   249 points by meetpateltech 5 hours ago | hide | 178 comments
+   5.
+
+   Claude's Cycles [pdf] (stanford.edu)
+   400 points by fs123 12 hours ago | hide | 192 comments
+   6.
+
+   Textadept (orbitalquark.github.io)
+   29 points by giancarlostoro 2 hours ago | hide | 5 comments
+   7.
+
+   Voxile: A ray-traced game made in its own engine and programming
+   language (elbowgreasegames.substack.com)
+   48 points by spacemarine1 2 hours ago | hide | 5 comments
+   8.
+
+   An Interactive Intro to CRDTs (2023) (jakelazaroff.com)
+   73 points by evakhoury 4 hours ago | hide | 11 comments
+   9.
+
+   The Xkcd thing, now interactive (p5js.org)
+   1082 points by memalign 12 hours ago | hide | 145 comments
+   10.
+
+   When AI writes the software, who verifies it? (leodemoura.github.io)
+   96 points by todsacerdoti 6 hours ago | hide | 84 comments
+   11.
+
+   Don't become an engineering manager (manager.dev)
+   276 points by flail 9 hours ago | hide | 199 comments
+   12.
+
+   Launch HN: Cekura (YC F24) – Testing and monitoring for voice and chat
+   AI agents
+   66 points by atarus 8 hours ago | hide | 19 comments
+   13.
+
+   Physics Girl: Super-Kamiokande – Imaging the sun by detecting neutrinos
+   [video] (youtube.com)
+   389 points by pcdavid 7 hours ago | hide | 61 comments
+   14.
+
+   Possible US Government iPhone-Hacking Toolkit in foreign spy and
+   criminal hands (wired.com)
+   147 points by alwillis 3 hours ago | hide | 41 comments
+   15.
+
+   TorchLean: Formalizing Neural Networks in Lean (leandojo.org)
+   59 points by matt_d 7 hours ago | hide | 8 comments
+   16.
+
+   We've freed Cookie's Bustle from copyright hell (gamehistory.org)
+   55 points by sb057 3 hours ago | hide | 7 comments
+   17.
+
+   I'm reluctant to verify my identity or age for any online services
+   (neilzone.co.uk)
+   849 points by speckx 9 hours ago | hide | 524 comments
+   18.
+
+   OpenAI CEO Sam Altman Defends Pentagon Work to Staff (wsj.com)
+   35 points by cdrnsf 1 hour ago | hide | 8 comments
+   19.
+
+   Arm's Cortex X925: Reaching Desktop Performance (chipsandcheese.com)
+   253 points by ingve 15 hours ago | hide | 151 comments
+   20.
+
+   MacBook Air with M5 (apple.com)
+   340 points by Garbage 9 hours ago | hide | 397 comments
+   21.
+
+   I'm losing the SEO battle for my own open source project
+   (twitter.com/gavriel_cohen)
+   416 points by devinitely 9 hours ago | hide | 213 comments
+   22.
+
+   Disable Your SSH access accidentally with scp (sny.sh)
+   87 points by zdw 8 hours ago | hide | 38 comments
+   23.
+
+   TV's TV (1987) & TV Games Encyclopedia (1988) (gingerbeardman.com)
+   6 points by msephton 1 hour ago | hide | discuss
+   24.
+
+   The Two Kinds of Error (evanhahn.com)
+   25 points by zdw 4 hours ago | hide | 13 comments
+   25.
+
+   Helsinki just went a full year without a single traffic death
+   (politico.eu)
+   14 points by mooreds 33 minutes ago | hide | discuss
+   26.
+
+   GitHub Is Having Issues (githubstatus.com)
+   187 points by Simpliplant 4 hours ago | hide | 125 comments
+   27.
+
+   Payment fees matter more than you think (cuencahighlife.com)
+   92 points by dxs 4 hours ago | hide | 61 comments
+   28.
+
+   Apple Studio Display and Studio Display XDR (apple.com)
+   201 points by victorbjorklund 9 hours ago | hide | 228 comments
+   29.
+
+   Show HN: Open-Source Article 12 Logging Infrastructure for the EU AI
+   Act
+   33 points by systima 6 hours ago | hide | 2 comments
+   30.
+
+   Meta’s AI smart glasses and data privacy concerns (svd.se)
+   1362 points by sandbach 1 day ago | hide | 760 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 33bb6ddc-516d-47ed-bc3e-5191df80eb3f
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Don't Make Me Talk to Your Chatbot (raymyers.org)
+   98 points by pkilgore 1 hour ago | hide | 40 comments
+   2.
+
+   MacBook Pro with new M5 Pro and M5 Max (apple.com)
+   608 points by scrlk 9 hours ago | hide | 577 comments
+   3.
+
+   Intel's make-or-break 18A process node debuts for data center with
+   288-core Xeon (tomshardware.com)
+   215 points by vanburen 4 hours ago | hide | 164 comments
+   4.
+
+   GPT‑5.3 Instant (openai.com)
+   251 points by meetpateltech 5 hours ago | hide | 183 comments
+   5.
+
+   Textadept (orbitalquark.github.io)
+   31 points by giancarlostoro 2 hours ago | hide | 5 comments
+   6.
+
+   Voxile: A ray-traced game made in its own engine and programming
+   language (elbowgreasegames.substack.com)
+   52 points by spacemarine1 2 hours ago | hide | 5 comments
+   7.
+
+   Claude's Cycles [pdf] (stanford.edu)
+   403 points by fs123 12 hours ago | hide | 192 comments
+   8.
+
+   An Interactive Intro to CRDTs (2023) (jakelazaroff.com)
+   73 points by evakhoury 4 hours ago | hide | 11 comments
+   9.
+
+   Talos: Hardware accelerator for deep convolutional neural networks
+   (talos.wtf)
+   3 points by llamatheollama 20 minutes ago | hide | discuss
+   10.
+
+   The Xkcd thing, now interactive (p5js.org)
+   1085 points by memalign 12 hours ago | hide | 146 comments
+   11.
+
+   When AI writes the software, who verifies it? (leodemoura.github.io)
+   99 points by todsacerdoti 6 hours ago | hide | 90 comments
+   12.
+
+   Don't become an engineering manager (manager.dev)
+   277 points by flail 9 hours ago | hide | 199 comments
+   13.
+
+   Launch HN: Cekura (YC F24) – Testing and monitoring for voice and chat
+   AI agents
+   66 points by atarus 9 hours ago | hide | 19 comments
+   14.
+
+   Physics Girl: Super-Kamiokande – Imaging the sun by detecting neutrinos
+   [video] (youtube.com)
+   393 points by pcdavid 7 hours ago | hide | 61 comments
+   15.
+
+   Possible US Government iPhone-Hacking Toolkit in foreign spy and
+   criminal hands (wired.com)
+   151 points by alwillis 3 hours ago | hide | 43 comments
+   16.
+
+   TorchLean: Formalizing Neural Networks in Lean (leandojo.org)
+   59 points by matt_d 7 hours ago | hide | 8 comments
+   17.
+
+   OpenAI CEO Sam Altman Defends Pentagon Work to Staff (wsj.com)
+   41 points by cdrnsf 1 hour ago | hide | 13 comments
+   18.
+
+   We've freed Cookie's Bustle from copyright hell (gamehistory.org)
+   59 points by sb057 3 hours ago | hide | 7 comments
+   19.
+
+   I'm reluctant to verify my identity or age for any online services
+   (neilzone.co.uk)
+   852 points by speckx 9 hours ago | hide | 524 comments
+   20.
+
+   Arm's Cortex X925: Reaching Desktop Performance (chipsandcheese.com)
+   254 points by ingve 15 hours ago | hide | 151 comments
+   21.
+
+   MacBook Air with M5 (apple.com)
+   341 points by Garbage 9 hours ago | hide | 400 comments
+   22.
+
+   Helsinki just went a full year without a single traffic death
+   (politico.eu)
+   21 points by mooreds 41 minutes ago | hide | 1 comment
+   23.
+
+   Disable Your SSH access accidentally with scp (sny.sh)
+   88 points by zdw 8 hours ago | hide | 39 comments
+   24.
+
+   I'm losing the SEO battle for my own open source project
+   (twitter.com/gavriel_cohen)
+   419 points by devinitely 9 hours ago | hide | 215 comments
+   25.
+
+   TV's TV (1987) & TV Games Encyclopedia (1988) (gingerbeardman.com)
+   6 points by msephton 1 hour ago | hide | discuss
+   26.
+
+   The Two Kinds of Error (evanhahn.com)
+   26 points by zdw 4 hours ago | hide | 13 comments
+   27.
+
+   GitHub Is Having Issues (githubstatus.com)
+   188 points by Simpliplant 4 hours ago | hide | 127 comments
+   28.
+
+   Payment fees matter more than you think (cuencahighlife.com)
+   93 points by dxs 5 hours ago | hide | 64 comments
+   29.
+
+   Apple Studio Display and Studio Display XDR (apple.com)
+   203 points by victorbjorklund 9 hours ago | hide | 228 comments
+   30.
+
+   Meta’s AI smart glasses and data privacy concerns (svd.se)
+   1362 points by sandbach 1 day ago | hide | 761 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+

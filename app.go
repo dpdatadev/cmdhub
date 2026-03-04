@@ -1,6 +1,9 @@
 package main
 
-import "log"
+import (
+	ynews "dpdigital/cmdhub/examples/jobs/HackerNews"
+	"log"
+)
 
 func init() {
 	log.SetPrefix("CMD::>")
@@ -9,6 +12,9 @@ func init() {
 }
 
 func main() {
-	GetHackerNews()
+	log.Println("Dumping HTML...")
+	ynews.Dump()
+	log.Println("Extracting Links from the Front/Home Page...")
+	ynews.Extract()
 	log.Println("RUNNER ENDED")
 }

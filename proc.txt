@@ -1,13 +1,13 @@
-uname -a
-ip addr
-ip neigh
-ifconfig
-uptime
-nmap -sn 192.168.1.0/24
-arp -a
-ps aux
-tcpdump -D
-dmesg
-service redis status
-service docker status
+//uname -a
+//ip addr
+//ip neigh
+//ifconfig
+//uptime
+//nmap -sn 192.168.1.0/24
+//arp -a
+//ps aux
+//tcpdump -D
+//dmesg
+//service redis status
+//service docker status
 lynx -dump -nolist https://news.ycombinator.com/
