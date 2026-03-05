@@ -96,12 +96,16 @@ func (e *LocalExecutor) xExecute(
 
 	res, err := cmd.WithContext(ctx).Run()
 
-	if !res.OK() {
-		PrintFailure("HubCommand failed: %v", err)
+	if err != nil {
+		execErr := err.Error()
+		result.Error = execErr
+		PrintFailure("[FAIL]:HubCommand EXECUTION failed: %s", err)
 	}
 
-	if err != nil {
-		result.Error = err.Error()
+	if !res.OK() {
+		resErr := res.Err.Error()
+		result.Error = resErr
+		PrintFailure("[FAIL]:HubCommand RESULT had ERRORS: %s", resErr)
 	}
 
 	end := time.Now()
@@ -161,10 +165,17 @@ func (e *LocalExecutor) Execute(
 	}
 
 	if err != nil {
-		result.Error = err.Error()
+		execErr := err.Error()
+		result.Error = execErr
+		PrintFailure("[FAIL]:HubCommand EXECUTION had errors: %s", execErr)
 	}
 
 	if debug {
+		PrintDebug("Stdout: %s\n", result.Stdout)
+		PrintDebug("Stderr: %s\n", result.Stderr)
+		PrintDebug("ExitCode: %d\n", result.ExitCode)
+		PrintDebug("Error: %s\n", result.Error)
+		PrintDebug("Duration: %v\n", result.Duration)
 		go e.debugDump(cmd, result, "executions.log")
 	}
 
