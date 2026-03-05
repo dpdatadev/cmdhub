@@ -2066,3 +2066,295 @@ CMD::>STDOUT:
                                    Contact
                           Search: _________________
 
+CMD::>HubCommand ID: cb3fcc8d-232b-4be4-aa91-2286826c216f
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Nvidia PersonaPlex 7B on Apple Silicon: Full-Duplex Speech-to-Speech in
+   Swift (ivan.digital)
+   155 points by ipotapov 4 hours ago | hide | 54 comments
+   2.
+
+   Google Workspace CLI (github.com/googleworkspace)
+   658 points by gonzalovargas 12 hours ago | hide | 219 comments
+   3.
+
+   Relicensing with AI-Assisted Rewrite (tuananh.net)
+   178 points by tuananh 7 hours ago | hide | 159 comments
+   4.
+
+   The L in "LLM" Stands for Lying (acko.net)
+   278 points by LorenDB 8 hours ago | hide | 150 comments
+   5.
+
+   Poor Man's Polaroid (boxart.lt)
+   52 points by ZacnyLos 4 hours ago | hide | 12 comments
+   6.
+
+   Arabic document from 17th-cent. rubbish heap confirms semi-legendary
+   Nubian king (phys.org)
+   60 points by wglb 5 hours ago | hide | 11 comments
+   7.
+
+   Smalltalk's Browser: Unbeatable, yet Not Enough (lorenzano.eu)
+   58 points by mpweiher 4 hours ago | hide | 20 comments
+   8.
+
+   Building a new Flash (newgrounds.com)
+   570 points by TechPlasma 16 hours ago | hide | 175 comments
+   9.
+
+   AMD will bring its “Ryzen AI” processors to standard desktop PCs for
+   first time (arstechnica.com)
+   107 points by Bender 8 hours ago | hide | 90 comments
+   10.
+
+   World-first gigabit laser link between aircraft and geostationary
+   satellite (esa.int)
+   26 points by giuliomagnifico 2 hours ago | hide | 9 comments
+   11.
+
+   Jails for NetBSD – Kernel Enforced Isolation and Native Resource
+   Control (petermann-digital.de)
+   40 points by vermaden 5 hours ago | hide | 12 comments
+   12.
+
+   No right to relicense this project (github.com/chardet)
+   236 points by robin_reala 3 hours ago | hide | 151 comments
+   13.
+
+   OpenBSD on SGI: A Rollercoaster Story (online.fr)
+   30 points by brynet 6 hours ago | hide | 1 comment
+   14.
+
+   Earth Garden: Field Recordings Around the World (alen.ro)
+   13 points by alentodorov 2 hours ago | hide | 5 comments
+   15.
+
+   Something is afoot in the land of Qwen (simonwillison.net)
+   695 points by simonw 20 hours ago | hide | 304 comments
+   16.
+
+   MacBook Neo (apple.com)
+   1811 points by dm 22 hours ago | hide | 2118 comments
+   17.
+
+   Show HN: Poppy – A simple app to stay intentional with relationships
+   (poppy-connection-keeper.netlify.app)
+   118 points by mahirhiro 8 hours ago | hide | 46 comments
+   18.
+
+   BMW Group to deploy humanoid robots in production in Germany for the
+   first time (bmwgroup.com)
+   155 points by JeanKage 15 hours ago | hide | 149 comments
+   19.
+
+   Dario Amodei calls OpenAI’s messaging around military deal ‘straight up
+   lies’ (techcrunch.com)
+   632 points by SilverElfin 12 hours ago | hide | 336 comments
+   20.
+
+   Relax NG is a schema language for XML (2014) (relaxng.org)
+   31 points by Frotag 6 hours ago | hide | 19 comments
+   21.
+
+   Dulce et Decorum Est (1921) (poetryfoundation.org)
+   147 points by bikeshaving 14 hours ago | hide | 80 comments
+   22.
+
+   You Just Reveived (dylan.gr)
+   185 points by djnaraps 7 hours ago | hide | 59 comments
+   23.
+
+   US tech firms pledge at White House to bear costs of energy for
+   datacenters (theguardian.com)
+   94 points by geox 10 hours ago | hide | 93 comments
+   24.
+
+   Picking Up a Zillion Pieces of Litter (sixstepstobetterhealth.com)
+   139 points by colinbartlett 13 hours ago | hide | 47 comments
+   25.
+
+   Humans 40k yrs ago developed a system of conventional signs (pnas.org)
+   134 points by bikenaga 16 hours ago | hide | 55 comments
+   26.
+
+   NRC issues first commercial reactor construction approval in 10 years
+   [pdf] (nrc.gov)
+   118 points by Anon84 14 hours ago | hide | 87 comments
+   27.
+
+   Moss is a pixel canvas where every brush is a tiny program (moss.town)
+   276 points by smusamashah 19 hours ago | hide | 28 comments
+   28.
+
+   “It turns out” (2010) (jsomers.net)
+   289 points by Munksgaard 21 hours ago | hide | 89 comments
+   29.
+
+   Qwen3.5 Fine-Tuning Guide (unsloth.ai)
+   354 points by bilsbie 1 day ago | hide | 86 comments
+   30.
+
+   NanoGPT Slowrun: Language Modeling with Limited Data, Infinite Compute
+   (qlabs.sh)
+   171 points by sdpmas 18 hours ago | hide | 31 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: a4bb62b7-8b29-4624-a92d-196d60208f30
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Nvidia PersonaPlex 7B on Apple Silicon: Full-Duplex Speech-to-Speech in
+   Swift (ivan.digital)
+   157 points by ipotapov 4 hours ago | hide | 54 comments
+   2.
+
+   Google Workspace CLI (github.com/googleworkspace)
+   659 points by gonzalovargas 12 hours ago | hide | 219 comments
+   3.
+
+   Relicensing with AI-Assisted Rewrite (tuananh.net)
+   179 points by tuananh 7 hours ago | hide | 161 comments
+   4.
+
+   The L in "LLM" Stands for Lying (acko.net)
+   280 points by LorenDB 8 hours ago | hide | 153 comments
+   5.
+
+   Poor Man's Polaroid (boxart.lt)
+   53 points by ZacnyLos 4 hours ago | hide | 12 comments
+   6.
+
+   Smalltalk's Browser: Unbeatable, yet Not Enough (lorenzano.eu)
+   60 points by mpweiher 4 hours ago | hide | 20 comments
+   7.
+
+   Arabic document from 17th-cent. rubbish heap confirms semi-legendary
+   Nubian king (phys.org)
+   62 points by wglb 5 hours ago | hide | 11 comments
+   8.
+
+   Building a new Flash (newgrounds.com)
+   572 points by TechPlasma 16 hours ago | hide | 175 comments
+   9.
+
+   AMD will bring its “Ryzen AI” processors to standard desktop PCs for
+   first time (arstechnica.com)
+   107 points by Bender 8 hours ago | hide | 92 comments
+   10.
+
+   World-first gigabit laser link between aircraft and geostationary
+   satellite (esa.int)
+   26 points by giuliomagnifico 2 hours ago | hide | 9 comments
+   11.
+
+   Jails for NetBSD – Kernel Enforced Isolation and Native Resource
+   Control (petermann-digital.de)
+   40 points by vermaden 5 hours ago | hide | 12 comments
+   12.
+
+   No right to relicense this project (github.com/chardet)
+   238 points by robin_reala 3 hours ago | hide | 152 comments
+   13.
+
+   OpenBSD on SGI: A Rollercoaster Story (online.fr)
+   30 points by brynet 6 hours ago | hide | 1 comment
+   14.
+
+   Earth Garden: Field Recordings Around the World (alen.ro)
+   13 points by alentodorov 2 hours ago | hide | 5 comments
+   15.
+
+   Something is afoot in the land of Qwen (simonwillison.net)
+   695 points by simonw 20 hours ago | hide | 304 comments
+   16.
+
+   MacBook Neo (apple.com)
+   1811 points by dm 22 hours ago | hide | 2118 comments
+   17.
+
+   Show HN: Poppy – A simple app to stay intentional with relationships
+   (poppy-connection-keeper.netlify.app)
+   118 points by mahirhiro 8 hours ago | hide | 46 comments
+   18.
+
+   BMW Group to deploy humanoid robots in production in Germany for the
+   first time (bmwgroup.com)
+   156 points by JeanKage 15 hours ago | hide | 150 comments
+   19.
+
+   Dario Amodei calls OpenAI’s messaging around military deal ‘straight up
+   lies’ (techcrunch.com)
+   633 points by SilverElfin 12 hours ago | hide | 337 comments
+   20.
+
+   Relax NG is a schema language for XML (2014) (relaxng.org)
+   31 points by Frotag 6 hours ago | hide | 19 comments
+   21.
+
+   Dulce et Decorum Est (1921) (poetryfoundation.org)
+   148 points by bikeshaving 14 hours ago | hide | 80 comments
+   22.
+
+   You Just Reveived (dylan.gr)
+   186 points by djnaraps 7 hours ago | hide | 59 comments
+   23.
+
+   US tech firms pledge at White House to bear costs of energy for
+   datacenters (theguardian.com)
+   94 points by geox 10 hours ago | hide | 94 comments
+   24.
+
+   Picking Up a Zillion Pieces of Litter (sixstepstobetterhealth.com)
+   139 points by colinbartlett 13 hours ago | hide | 47 comments
+   25.
+
+   Humans 40k yrs ago developed a system of conventional signs (pnas.org)
+   134 points by bikenaga 16 hours ago | hide | 55 comments
+   26.
+
+   NRC issues first commercial reactor construction approval in 10 years
+   [pdf] (nrc.gov)
+   118 points by Anon84 14 hours ago | hide | 87 comments
+   27.
+
+   Moss is a pixel canvas where every brush is a tiny program (moss.town)
+   277 points by smusamashah 19 hours ago | hide | 28 comments
+   28.
+
+   “It turns out” (2010) (jsomers.net)
+   289 points by Munksgaard 21 hours ago | hide | 89 comments
+   29.
+
+   Qwen3.5 Fine-Tuning Guide (unsloth.ai)
+   354 points by bilsbie 1 day ago | hide | 87 comments
+   30.
+
+   NanoGPT Slowrun: Language Modeling with Limited Data, Infinite Compute
+   (qlabs.sh)
+   171 points by sdpmas 18 hours ago | hide | 31 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+

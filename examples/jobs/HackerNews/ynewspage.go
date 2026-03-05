@@ -142,6 +142,6 @@ func Dump() {
 	if createError != nil { //We will search logs for unique ID (uuid)
 		hub.PrintFailure("COMMAND NOT SAVED %s\n", dbCmd.ID.String())
 	} else { //Hub commands also include the user who ran the process
-		hub.PrintSuccess("COMMAND RAN and SAVED by user %s", dbCmd.GetUserName())
+		hub.PrintSuccess("COMMAND RAN and SAVED by user %s\n", dbCmd.GetUserName())
 	}
 }
