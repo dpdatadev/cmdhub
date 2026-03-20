@@ -96,3 +96,16 @@ func NewxHubCommand(name string, args []string, cmd *execx.Cmd, notes string) *H
 		CreatedAt: time.Now(),
 	}
 }
+
+// TODO, add tests
+func NewHubFuncCommand(name string, args []string, f func(...any) any, notes string) *HubCommand {
+	return &HubCommand{
+		ID:        uuid.New(),
+		Name:      name,
+		Args:      args,
+		Notes:     notes,
+		CmdFunc:   f,
+		Status:    StatusPending,
+		CreatedAt: time.Now(),
+	}
+}

@@ -4258,3 +4258,172 @@ CMD::>STDOUT:
                                    Contact
                           Search: _________________
 
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.087871792 -0500 CDT m=+0.039958021
+CMD::>Name:  tcpdump
+CMD::>Args:  [-D]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.063535136 -0500 CDT m=+0.015621532
+CMD::>Execution Ended:  2026-03-20 10:40:06.08756766 -0500 CDT m=+0.039653889
+CMD::>Duration:  11.779223ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.142683079 -0500 CDT m=+0.094769308
+CMD::>Name:  ip
+CMD::>Args:  [neigh]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.116862892 -0500 CDT m=+0.068949362
+CMD::>Execution Ended:  2026-03-20 10:40:06.142403928 -0500 CDT m=+0.094490157
+CMD::>Duration:  13.842258ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.19891845 -0500 CDT m=+0.151004679
+CMD::>Name:  arp
+CMD::>Args:  [-a]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.145356711 -0500 CDT m=+0.097443032
+CMD::>Execution Ended:  2026-03-20 10:40:06.198623096 -0500 CDT m=+0.150709325
+CMD::>Duration:  27.912962ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.411207041 -0500 CDT m=+0.363293270
+CMD::>Name:  ip
+CMD::>Args:  [addr]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.392852988 -0500 CDT m=+0.344939309
+CMD::>Execution Ended:  2026-03-20 10:40:06.410457201 -0500 CDT m=+0.362543560
+CMD::>Duration:  6.135715ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.504081981 -0500 CDT m=+0.456168210
+CMD::>Name:  ifconfig
+CMD::>Args:  []
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.490348816 -0500 CDT m=+0.442435119
+CMD::>Execution Ended:  2026-03-20 10:40:06.5036772 -0500 CDT m=+0.455763429
+CMD::>Duration:  3.46962ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.632107385 -0500 CDT m=+0.584193614
+CMD::>Name:  service
+CMD::>Args:  [docker status]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.589753382 -0500 CDT m=+0.541839685
+CMD::>Execution Ended:  2026-03-20 10:40:06.631792178 -0500 CDT m=+0.583878426
+CMD::>Duration:  31.784567ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.703704563 -0500 CDT m=+0.655790792
+CMD::>Name:  uptime
+CMD::>Args:  []
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.690770294 -0500 CDT m=+0.642856634
+CMD::>Execution Ended:  2026-03-20 10:40:06.703381635 -0500 CDT m=+0.655467882
+CMD::>Duration:  2.200091ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:06.803077073 -0500 CDT m=+0.755163303
+CMD::>Name:  uname
+CMD::>Args:  [-a]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.791251702 -0500 CDT m=+0.743338024
+CMD::>Execution Ended:  2026-03-20 10:40:06.802532736 -0500 CDT m=+0.754618965
+CMD::>Duration:  911.748µs
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:07.016567525 -0500 CDT m=+0.968653754
+CMD::>Name:  ps
+CMD::>Args:  [aux]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.99194483 -0500 CDT m=+0.944031152
+CMD::>Execution Ended:  2026-03-20 10:40:07.01580113 -0500 CDT m=+0.967887452
+CMD::>Duration:  13.965481ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:07.115916165 -0500 CDT m=+1.068002394
+CMD::>Name:  service
+CMD::>Args:  [redis status]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:07.092403312 -0500 CDT m=+1.044489615
+CMD::>Execution Ended:  2026-03-20 10:40:07.115776664 -0500 CDT m=+1.067862911
+CMD::>Duration:  12.887806ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:07.209068496 -0500 CDT m=+1.161154725
+CMD::>Name:  dmesg
+CMD::>Args:  []
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:07.192024842 -0500 CDT m=+1.144111164
+CMD::>Execution Ended:  2026-03-20 10:40:07.207187759 -0500 CDT m=+1.159274006
+CMD::>Duration:  5.062984ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:07.539904749 -0500 CDT m=+1.491990978
+CMD::>Name:  lynx
+CMD::>Args:  [-dump -nolist https://news.ycombinator.com/]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.890905548 -0500 CDT m=+0.842991851
+CMD::>Execution Ended:  2026-03-20 10:40:07.539511931 -0500 CDT m=+1.491598160
+CMD::>Duration:  638.151486ms
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
+CMD::>===========================================================================================
+CMD::>::BEGIN EXECUTION::
+CMD::>Time:  2026-03-20 10:40:09.436018413 -0500 CDT m=+3.388104661
+CMD::>Name:  nmap
+CMD::>Args:  [-sn 192.168.1.0/24]
+CMD::>Notes:  Ingested from proc.txt
+CMD::>Status:  SUCCESS
+CMD::>HubCommand Started:  2026-03-20 10:40:06.238851008 -0500 CDT m=+0.190937311
+CMD::>Execution Ended:  2026-03-20 10:40:09.435754929 -0500 CDT m=+3.387841158
+CMD::>Duration:  3.186974972s
+CMD::>ExitCode:  0
+CMD::>::END EXECUTION::
+CMD::>===========================================================================================
