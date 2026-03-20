@@ -14,7 +14,7 @@ func init() {
 func main() {
 	log.Println("Dumping HTML...")
 	ynews.Dump()
-	log.Println("Extracting Links from the Front/Home Page...")
-	ynews.Extract()
+	log.Println("Extracting Hacker News Links...")
+	ynews.Extract() //TODO, on next example, wrap Rest call function as Command
 	log.Println("RUNNER ENDED")
 }

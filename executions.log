@@ -2358,3 +2358,1903 @@ CMD::>STDOUT:
                                    Contact
                           Search: _________________
 
+CMD::>HubCommand ID: f5a93991-0c4c-4174-a6da-a9d084b53a0b
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   LibreSprite – open-source pixel art editor (libresprite.github.io)
+   75 points by nicoloren 3 hours ago | hide | 32 comments
+   2.
+
+   System76 on Age Verification Laws (system76.com)
+   509 points by LorenDB 8 hours ago | hide | 336 comments
+   3.
+
+   GPL upgrades via section 14 proxy delegation (runxiyu.org)
+   69 points by weinzierl 4 hours ago | hide | 29 comments
+   4.
+
+   GPT-5.4 (openai.com)
+   883 points by mudkipdev 18 hours ago | hide | 696 comments
+   5.
+
+   Hardening Firefox with Anthropic's Red Team (blog.mozilla.org)
+   49 points by todsacerdoti 1 hour ago | hide | 13 comments
+   6.
+
+   Async Programming Is Just Inject Time (willhbr.net)
+   6 points by marvinborner 1 hour ago | hide | discuss
+   7.
+
+   10% of Firefox crashes are caused by bitflips (mas.to)
+   722 points by marvinborner 21 hours ago | hide | 354 comments
+   8.
+
+   Show HN: Swarm – Program a colony of 200 ants using a custom assembly
+   language (moment.com)
+   111 points by armandhammer10 8 hours ago | hide | 31 comments
+   9.
+
+   Elite Overproduction (wikipedia.org)
+   26 points by softwaredoug 55 minutes ago | hide | 23 comments
+   10.
+
+   A GitHub Issue Title Compromised 4k Developer Machines (grith.ai)
+   494 points by edf13 20 hours ago | hide | 146 comments
+   11.
+
+   Payphone Go (walzr.com)
+   3 points by walz 1 hour ago | hide | discuss
+   12.
+
+   The Brand Age (paulgraham.com)
+   383 points by bigwheels 19 hours ago | hide | 302 comments
+   13.
+
+   Labor market impacts of AI: A new measure and early evidence
+   (anthropic.com)
+   234 points by jjwiseman 14 hours ago | hide | 350 comments
+   14.
+
+   Good software knows when to stop (writizzy.com)
+   472 points by ssaboum 23 hours ago | hide | 238 comments
+   15.
+
+   Where things stand with the Department of War (anthropic.com)
+   503 points by surprisetalk 12 hours ago | hide | 537 comments
+   16.
+
+   A standard protocol to handle and discard low-effort, AI-Generated pull
+   requests (406.fail)
+   218 points by Muhammad523 15 hours ago | hide | 74 comments
+   17. [s.gif] Stardex (YC S21) is hiring customer success engineers
+   (ycombinator.com)
+   6 hours ago | hide
+   18.
+
+   Stupidly Obscure Programming in a Troubled Time (2018) (podsnap.com)
+   11 points by luu 5 hours ago | hide | discuss
+   19.
+
+   Wikipedia was in read-only mode following mass admin account compromise
+   (wikimediastatus.net)
+   991 points by greyface- 21 hours ago | hide | 355 comments
+   20.
+
+   First MacBook Neo Benchmarks Are In (macrumors.com)
+   12 points by tosh 1 hour ago | hide | 3 comments
+   21.
+
+   CBP tapped into the online advertising ecosystem to track peoples’
+   movements (404media.co)
+   480 points by ece 15 hours ago | hide | 189 comments
+   22.
+
+   Image manipulation with convolution using Julia
+   (medium.com/ahmad_hamze)
+   7 points by AhmadHamze 3 hours ago | hide | 2 comments
+   23.
+
+   AI and the Ship of Theseus (pocoo.org)
+   131 points by pixelmonkey 21 hours ago | hide | 133 comments
+   24.
+
+   A ternary plot of citrus geneology (jlauf.com)
+   146 points by jlauf 17 hours ago | hide | 27 comments
+   25.
+
+   Hardware hotplug events on Linux, the gory details
+   (arcanenibble.github.io)
+   158 points by todsacerdoti 19 hours ago | hide | 16 comments
+   26.
+
+   Remotely unlocking an encrypted hard disk (jyn.dev)
+   162 points by janandonly 18 hours ago | hide | 75 comments
+   27.
+
+   Judge orders government to begin refunding more than $130B in tariffs
+   (wsj.com)
+   984 points by JumpCrisscross 23 hours ago | hide | 701 comments
+   28.
+
+   Screeching Sound of Peeling Tape (aps.org)
+   31 points by akshatjiwan 6 hours ago | hide | 6 comments
+   29.
+
+   Show HN: PageAgent, A GUI agent that lives inside your web app
+   (alibaba.github.io)
+   119 points by simon_luv_pho 20 hours ago | hide | 62 comments
+   30.
+
+   How to install and start using LineageOS on your phone (lockywolf.net)
+   81 points by todsacerdoti 12 hours ago | hide | 23 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 59b5c839-1da7-4f97-a68a-77cf4aae202a
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Ki Editor - an editor that operates on the AST (ki-editor.org)
+   69 points by ravenical 2 hours ago | hide | 21 comments
+   2.
+
+   Plasma Bigscreen – 10-foot interface for KDE plasma
+   (plasma-bigscreen.org)
+   500 points by PaulHoule 13 hours ago | hide | 148 comments
+   3.
+
+   Tell HN: I'm 60 years old. Claude Code has re-ignited a passion
+   604 points by shannoncc 13 hours ago | hide | 470 comments
+   4.
+
+   UUID package coming to Go standard library (github.com/golang)
+   238 points by soypat 11 hours ago | hide | 152 comments
+   5.
+
+   US economy sheds 92,000 jobs in February in sharp slide (ft.com)
+   45 points by doener 1 hour ago | hide | 3 comments
+   6.
+
+   48x32, a 1536 LED Game Computer (2023) (jacquesmattheij.com)
+   28 points by duck 3 hours ago | hide | 2 comments
+   7.
+
+   this css proves me human (will-keleher.com)
+   293 points by todsacerdoti 15 hours ago | hide | 95 comments
+   8.
+
+   Helix: A post-modern text editor (helix-editor.com)
+   191 points by doener 13 hours ago | hide | 84 comments
+   9.
+
+   Galileo's handwritten notes found in ancient astronomy text
+   (science.org)
+   155 points by tzury 14 hours ago | hide | 31 comments
+   10.
+
+   QGIS 4.0 (qgis.org)
+   103 points by jonbaer 4 hours ago | hide | 19 comments
+   11.
+
+   LLMs work best when the user defines their acceptance criteria first
+   (katanaquant.com)
+   275 points by dnw 12 hours ago | hide | 200 comments
+   12.
+
+   Uploading Pirated Books via BitTorrent Qualifies as Fair Use, Meta
+   Argues (torrentfreak.com)
+   110 points by askl 4 hours ago | hide | 69 comments
+   13.
+
+   Lock Scroll with a Vengeance (aresluna.org)
+   27 points by etothet 5 hours ago | hide | 6 comments
+   14.
+
+   Boy I was wrong about the Fediverse (matduggan.com)
+   45 points by wrxd 3 hours ago | hide | 23 comments
+   15.
+
+   Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua
+   scripting (github.com/moongate-community)
+   262 points by squidleon 23 hours ago | hide | 145 comments
+   16.
+
+   Working and Communicating with Japanese Engineers (tokyodev.com)
+   55 points by zdw 6 hours ago | hide | 26 comments
+   17.
+
+   Editing changes in patch format with Jujutsu (knifepoint.net)
+   38 points by cassepipe 9 hours ago | hide | 7 comments
+   18.
+
+   Compiling Match Statements to Bytecode (xnacly.me)
+   5 points by ingve 3 hours ago | hide | 1 comment
+   19.
+
+   Modernizing swapping: virtual swap spaces (lwn.net)
+   39 points by voxadam 10 hours ago | hide | 33 comments
+   20.
+
+   Sarvam 105B, the first competitive Indian open source LLM (sarvam.ai)
+   90 points by logicchains 5 hours ago | hide | 25 comments
+   21.
+
+   What canceled my Go context? (rednafi.com)
+   78 points by mweibel 13 hours ago | hide | 43 comments
+   22.
+
+   Querying 3B Vectors (vickiboykis.com)
+   62 points by surprisetalk 10 hours ago | hide | 8 comments
+   23.
+
+   My application programmer instincts failed when debugging assembler
+   (landedstar.com)
+   19 points by lifefeed 7 hours ago | hide | 12 comments
+   24.
+
+   Tech employment now significantly worse than the 2008 or 2020
+   recessions (twitter.com/josephpolitano)
+   930 points by enraged_camel 19 hours ago | hide | 613 comments
+   25.
+
+   CT Scans of Health Wearables (lumafield.com)
+   225 points by radeeyate 23 hours ago | hide | 47 comments
+   26.
+
+   Show HN: The Fastest Way to Ship TanStack Apps (tanstackstarterkit.com)
+   3 points by devarifhossain 3 hours ago | hide | discuss
+   27.
+
+   The Longing (1999) (cluetrain.com)
+   24 points by herbertl 7 hours ago | hide | 2 comments
+   28.
+
+   Launch HN: Palus Finance (YC W26): Better yields on idle cash for
+   startups, SMBs
+   54 points by sam_palus 18 hours ago | hide | 79 comments
+   29.
+
+   Entomologists use a particle accelerator to image ants at scale
+   (ieee.org)
+   134 points by gmays 21 hours ago | hide | 24 comments
+   30.
+
+   Maybe there's a pattern here? (dynomight.net)
+   139 points by surprisetalk 12 hours ago | hide | 91 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: fa03ed0c-5224-46e4-bb9a-86bf9bff0ff4
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   US Court of Appeals: TOS may be updated by email, use can imply consent
+   [pdf] (uscourts.gov)
+   133 points by dryadin 2 hours ago | hide | 55 comments
+   2.
+
+   Grammarly is offering ‘expert’ AI reviews from famous dead and living
+   writers (wired.com)
+   13 points by jmsflknr 1 hour ago | hide | 14 comments
+   3.
+
+   Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than
+   native MCP (github.com/knowsuchagency)
+   54 points by knowsuchagency 3 hours ago | hide | 29 comments
+   4.
+
+   Agent Safehouse – macOS-native sandboxing for local agents
+   (agent-safehouse.dev)
+   559 points by atombender 12 hours ago | hide | 140 comments
+   5.
+
+   Microscopes can see video on a laserdisc (youtube.com)
+   420 points by zdw 13 hours ago | hide | 48 comments
+   6.
+
+   PCB devboard the size of a USB-C plug (github.com/dieu-de-l-elec)
+   167 points by zachlatta 10 hours ago | hide | 31 comments
+   7.
+
+   Ask HN: What Are You Working On? (March 2026)
+   138 points by david927 9 hours ago | hide | 480 comments
+   8.
+
+   We should revisit literate programming in the agent era
+   (silly.business)
+   232 points by horseradish 13 hours ago | hide | 137 comments
+   9.
+
+   Every single board computer I tested in 2025 (bret.dk)
+   161 points by speckx 13 hours ago | hide | 49 comments
+   10.
+
+   FrameBook (edoo.gg)
+   424 points by todsacerdoti 17 hours ago | hide | 72 comments
+   11.
+
+   The death of social media is the renaissance of RSS (2025)
+   (smartlab.at)
+   123 points by jruohonen 4 hours ago | hide | 71 comments
+   12.
+
+   How the Sriracha guys screwed over their supplier (reddit.com)
+   149 points by thunderbong 5 hours ago | hide | 32 comments
+   13.
+
+   Linux Internals: How /proc/self/mem writes to unwritable memory (2021)
+   (offlinemark.com)
+   78 points by medbar 10 hours ago | hide | 18 comments
+   14.
+
+   My Homelab Setup (bryananthonio.com)
+   225 points by photon_collider 16 hours ago | hide | 149 comments
+   15.
+
+   Artificial-life: A simple (300 lines of code) reproduction of
+   Computational Life (github.com/rabrg)
+   110 points by tosh 12 hours ago | hide | 11 comments
+   16.
+
+   Claude built a system in 3 rounds, latent bugs from round 1 exploded in
+   round 3 (github.com/mycelium-clj)
+   24 points by yogthos 5 hours ago | hide | 14 comments
+   17.
+
+   I made a programming language with M&Ms (mufeedvh.com)
+   78 points by tosh 14 hours ago | hide | 34 comments
+   18.
+
+   Why can't you tune your guitar? (2019) (ethanhein.com)
+   206 points by digitallogic 20 hours ago | hide | 144 comments
+   19.
+
+   I love email (2023) (xoria.org)
+   3 points by surprisetalk 2 hours ago | hide | discuss
+   20.
+
+   Living human brain cells play DOOM on a CL1 [video] (youtube.com)
+   186 points by kevinak 18 hours ago | hide | 182 comments
+   21.
+
+   My “grand vision” for Rust (yoshuawuyts.com)
+   182 points by todsacerdoti 22 hours ago | hide | 164 comments
+   22.
+
+   Pushing and Pulling: Three reactivity algorithms (jonathan-frere.com)
+   98 points by frogulis 14 hours ago | hide | 16 comments
+   23.
+
+   The legendary Mojave Phone Booth is back (2013) (dailydot.com)
+   31 points by 1970-01-01 9 hours ago | hide | 6 comments
+   24.
+
+   WSL Manager (github.com/bostrot)
+   101 points by gballan 15 hours ago | hide | 54 comments
+   25.
+
+   Humanoid robot: The evolution of Kawasaki’s challenge
+   (kawasakirobotics.com)
+   13 points by hhs 5 hours ago | hide | 2 comments
+   26.
+
+   Z80 Sans – a disassembler in a font (2024) (github.com/nevesnunes)
+   109 points by pabs3 17 hours ago | hide | 12 comments
+   27.
+
+   Triumph of the toons: how animation came to rule the box office
+   (economist.com)
+   16 points by andsoitis 5 hours ago | hide | 16 comments
+   28.
+
+   Ask HN: How to be alone?
+   447 points by sillysaurusx 21 hours ago | hide | 320 comments
+   29.
+
+   Show HN: Skir – like Protocol Buffer but better (skir.build)
+   84 points by gepheum 12 hours ago | hide | 45 comments
+   30.
+
+   Show HN: I built a real-time OSINT dashboard pulling 15 live global
+   feeds (github.com/bigbodycobain)
+   231 points by vancecookcobxin 14 hours ago | hide | 98 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: de234716-5994-46e1-9b1e-9678a9146325
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [s.gif]
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Zig – Type Resolution Redesign and Language Changes (ziglang.org)
+   200 points by Retro_Dev 8 hours ago | hide | 64 comments
+   2.
+
+   Create value for others and don’t worry about the returns
+   (geohot.github.io)
+   298 points by ppew 3 hours ago | hide | 139 comments
+   3.
+
+   U+237C ⍼ Is Azimuth (ionathan.ch)
+   288 points by cokernel_hacker 10 hours ago | hide | 28 comments
+   4.
+
+   Cloudflare crawl endpoint (cloudflare.com)
+   290 points by jeffpalmer 10 hours ago | hide | 114 comments
+   5.
+
+   TADA: Fast, Reliable Speech Generation Through Text-Acoustic
+   Synchronization (hume.ai)
+   30 points by smusamashah 3 hours ago | hide | 5 comments
+   6.
+
+   Julia Snail – An Emacs Development Environment for Julia Like Clojure's
+   Cider (github.com/gcv)
+   64 points by TheWiggles 6 hours ago | hide | 7 comments
+   7.
+
+   Tony Hoare has died (computationalcomplexity.org)
+   1769 points by speckx 18 hours ago | hide | 226 comments
+   8.
+
+   Building a TB-303 from Scratch (loopmaster.xyz)
+   13 points by stagas 2 hours ago | hide | discuss
+   9.
+
+   Yann LeCun raises $1B to build AI that understands the physical world
+   (wired.com)
+   459 points by helloplanets 16 hours ago | hide | 376 comments
+   10.
+
+   Agents that run while I sleep (claudecodecamp.com)
+   326 points by aray07 14 hours ago | hide | 342 comments
+   11.
+
+   RISC-V Is Sloooow (juszkiewicz.com.pl)
+   236 points by todsacerdoti 13 hours ago | hide | 223 comments
+   12.
+
+   SSH Secret Menu (twitter.com/rebane2001)
+   195 points by piccirello 10 hours ago | hide | 75 comments
+   13.
+
+   Writing my own text editor, and daily-driving it (jsbarretto.com)
+   98 points by todsacerdoti 7 hours ago | hide | 25 comments
+   14.
+
+   AutoKernel: Autoresearch for GPU Kernels (github.com/rightnow-ai)
+   17 points by frozenseven 1 hour ago | hide | 2 comments
+   15.
+
+   Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon
+   (github.com/runanywhereai)
+   209 points by sanchitmonga22 16 hours ago | hide | 130 comments
+   16.
+
+   Debian decides not to decide on AI-generated contributions (lwn.net)
+   324 points by jwilk 18 hours ago | hide | 252 comments
+   17.
+
+   I'm going to build my own OpenClaw, with blackjack and bun
+   (github.com/rcarmo)
+   27 points by rcarmo 1 hour ago | hide | 20 comments
+   18.
+
+   Levels of Agentic Engineering (bassimeledath.com)
+   174 points by bombastic311 16 hours ago | hide | 86 comments
+   19.
+
+   Universal vaccine against respiratory infections and allergens
+   (stanford.edu)
+   244 points by phony-account 10 hours ago | hide | 79 comments
+   20.
+
+   Mesh over Bluetooth LE, TCP, or Reticulum (github.com/torlando-tech)
+   90 points by khimaros 10 hours ago | hide | 10 comments
+   21.
+
+   Surpassing vLLM with a Generated Inference Stack (infinity.inc)
+   36 points by lukebechtel 7 hours ago | hide | 14 comments
+   22.
+
+   Support for Aquantia AQC113 and AQC113C Ethernet Controllers on FreeBSD
+   (github.com/aquantia)
+   7 points by justinclift 3 hours ago | hide | 3 comments
+   23.
+
+   Roblox is minting teen millionaires (bloomberg.com)
+   135 points by petethomas 14 hours ago | hide | 140 comments
+   24.
+
+   Standardizing source maps (bloomberg.github.io)
+   27 points by Timothee 4 hours ago | hide | 4 comments
+   25.
+
+   FFmpeg-over-IP – Connect to remote FFmpeg servers
+   (github.com/steelbrain)
+   181 points by steelbrain 14 hours ago | hide | 59 comments
+   26.
+
+   Pike: To Exit or Not to Exit (tomjohnell.com)
+   21 points by dnw 5 hours ago | hide | 2 comments
+   27.
+
+   Meta acquires Moltbook (axios.com)
+   491 points by mmayberry 18 hours ago | hide | 327 comments
+   28.
+
+   Launch HN: Didit (YC W26) – Stripe for Identity Verification
+   68 points by rosasalberto 16 hours ago | hide | 59 comments
+   29.
+
+   EQT eyes potential $6B sale of Linux pioneer SUSE, sources say
+   (reuters.com)
+   51 points by shscs911 8 hours ago | hide | 18 comments
+   30.
+
+   Invoker Commands API (developer.mozilla.org)
+   86 points by maqnius 12 hours ago | hide | 15 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 2d566a20-3f6d-4bd7-988a-461960df409d
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Temporal: A nine-year journey to fix time in JavaScript
+   (bloomberg.github.io)
+   531 points by robpalmer 10 hours ago | hide | 182 comments
+   2.
+
+   Many SWE-bench-Passing PRs would not be merged (metr.org)
+   143 points by mustaphah 5 hours ago | hide | 41 comments
+   3.
+
+   Food costs set to spike as urea prices nearly doubles due to war in
+   Iran (tradingeconomics.com)
+   11 points by burnt-resistor 17 minutes ago | hide | 1 comment
+   4.
+
+   Show HN: s@: decentralized social networking over static sites
+   (satproto.org)
+   27 points by remywang 1 hour ago | hide | 3 comments
+   5.
+
+   Don't post generated/AI-edited comments. HN is for conversation between
+   humans. (news.ycombinator.com)
+   2822 points by usefulposter 6 hours ago | hide | 1041 comments
+   6.
+
+   Making WebAssembly a first-class language on the Web
+   (hacks.mozilla.org)
+   406 points by mikece 11 hours ago | hide | 147 comments
+   7.
+
+   How much of HN is AI? (lcamtuf.substack.com)
+   41 points by surprisetalk 1 hour ago | hide | 10 comments
+   8.
+
+   I was interviewed by an AI bot for a job (theverge.com)
+   151 points by speckx 8 hours ago | hide | 161 comments
+   9.
+
+   Show HN: I built a tool that watches webpages and exposes changes as
+   RSS (sitespy.app)
+   170 points by vkuprin 9 hours ago | hide | 46 comments
+   10.
+
+   Show HN: Autoresearch@home (ensue-network.ai)
+   38 points by austinbaggio 2 hours ago | hide | 10 comments
+   11.
+
+   Show HN: A context-aware permission guard for Claude Code
+   (github.com/manuelschipper)
+   34 points by schipperai 2 hours ago | hide | 25 comments
+   12.
+
+   Google closes deal to acquire Wiz (wiz.io)
+   234 points by aldarisbm 11 hours ago | hide | 159 comments
+   13.
+
+   Tested: How Many Times Can a DVD±RW Be Rewritten? Methodology and
+   Results (goughlui.com)
+   19 points by giuliomagnifico 2 hours ago | hide | discuss
+   14.
+
+   The MacBook Neo (daringfireball.net)
+   405 points by etothet 12 hours ago | hide | 697 comments
+   15.
+
+   BitNet: 100B Param 1-Bit model for local CPUs (github.com/microsoft)
+   306 points by redm 13 hours ago | hide | 150 comments
+   16.
+
+   Entities enabling scientific fraud at scale (2025) (doi.org)
+   262 points by peyton 12 hours ago | hide | 187 comments
+   17. [s.gif] Meticulous (YC S21) is hiring to redefine software dev
+   (ashbyhq.com)
+   5 hours ago | hide
+   18.
+
+   CNN Explainer – Learn Convolutional Neural Network in Your Browser
+   (2020) (poloclub.github.io)
+   24 points by vismit2000 3 hours ago | hide | 2 comments
+   19.
+
+   Challenging the Single-Responsibility Principle (kiss-and-solid.com)
+   4 points by WolfOliver 1 hour ago | hide | discuss
+   20.
+
+   5,200 holes carved into a Peruvian mountain left by an ancient economy
+   (newatlas.com)
+   98 points by defrost 9 hours ago | hide | 50 comments
+   21.
+
+   Show HN: Klaus – OpenClaw on a VM, batteries included (klausai.com)
+   118 points by robthompson2018 9 hours ago | hide | 68 comments
+   22.
+
+   Preliminary data from a longitudinal AI impact study (getdx.com)
+   32 points by donutshop 4 hours ago | hide | 24 comments
+   23.
+
+   Apple releases iOS 15.8.7 to fix Coruna exploit for iPhone 6S from 2015
+   (support.apple.com)
+   42 points by seam_carver 55 minutes ago | hide | 12 comments
+   24.
+
+   Against vibes: When is a generative model useful (williamjbowman.com)
+   46 points by takira 4 hours ago | hide | 5 comments
+   25.
+
+   Atlassian to cut roughly 1,600 jobs in pivot to AI (reuters.com)
+   107 points by jp0d 3 hours ago | hide | 144 comments
+   26.
+
+   Personal Computer by Perplexity (perplexity.ai)
+   115 points by josephwegner 7 hours ago | hide | 102 comments
+   27.
+
+   Swiss e-voting pilot can't count 2,048 ballots after decryption failure
+   (theregister.com)
+   157 points by jjgreen 13 hours ago | hide | 358 comments
+   28.
+
+   How we hacked McKinsey's AI platform (codewall.ai)
+   396 points by mycroft_4221 16 hours ago | hide | 165 comments
+   29.
+
+   Physicist Astrid Eichhorn is a leader in the field of asymptotic safety
+   (quantamagazine.org)
+   111 points by tzury 10 hours ago | hide | 16 comments
+   30.
+
+   Show HN: Open-source browser for AI agents (github.com/theredsix)
+   110 points by theredsix 11 hours ago | hide | 35 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 3250aa34-9eef-459d-b20f-ed97ccaa088d
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Dolphin Progress Release 2603 (dolphin-emu.org)
+   49 points by BitPirate 2 hours ago | hide | 1 comment
+   2.
+
+   3D-Knitting: The Ultimate Guide (oliver-charles.com)
+   98 points by ChadNauseam 3 hours ago | hide | 33 comments
+   3.
+
+   Avoiding Trigonometry (2013) (iquilezles.org)
+   63 points by WithinReason 3 hours ago | hide | 12 comments
+   4.
+
+   Big Data on the Cheapest MacBook (duckdb.org)
+   9 points by bcye 35 minutes ago | hide | 1 comment
+   5.
+
+   Show HN: s@: decentralized social networking over static sites
+   (satproto.org)
+   323 points by remywang 11 hours ago | hide | 136 comments
+   6.
+
+   SBCL: A Sanely-Bootstrappable Common Lisp (2008) [pdf] (gold.ac.uk)
+   68 points by pabs3 5 hours ago | hide | 35 comments
+   7.
+
+   Returning to Rails in 2026 (markround.com)
+   182 points by stanislavb 6 hours ago | hide | 98 comments
+   8.
+
+   Temporal: The 9-year journey to fix time in JavaScript
+   (bloomberg.github.io)
+   711 points by robpalmer 20 hours ago | hide | 225 comments
+   9.
+
+   Printf-Tac-Toe (github.com/carlini)
+   45 points by carlos-menezes 5 hours ago | hide | 5 comments
+   10.
+
+   Making WebAssembly a first-class language on the Web
+   (hacks.mozilla.org)
+   594 points by mikece 21 hours ago | hide | 212 comments
+   11.
+
+   Datahäxan (0dd.company)
+   88 points by akkartik 7 hours ago | hide | 7 comments
+   12.
+
+   1B identity records exposed in ID verification data leak (aol.com)
+   76 points by robtherobber 2 hours ago | hide | 21 comments
+   13.
+
+   Reliable Software in the LLM Era (quint-lang.org)
+   24 points by mempirate 3 hours ago | hide | 4 comments
+   14.
+
+   Tested: How Many Times Can a DVD±RW Be Rewritten? Methodology and
+   Results (goughlui.com)
+   180 points by giuliomagnifico 12 hours ago | hide | 52 comments
+   15.
+
+   I was interviewed by an AI bot for a job (theverge.com)
+   341 points by speckx 17 hours ago | hide | 314 comments
+   16.
+
+   WebPKI and You (brycekerley.net)
+   69 points by aragilar 8 hours ago | hide | 5 comments
+   17.
+
+   Don't post generated/AI-edited comments. HN is for conversation between
+   humans (news.ycombinator.com)
+   3702 points by usefulposter 16 hours ago | hide | 1378 comments
+   18.
+
+   NASA's DART spacecraft changed an asteroid's orbit around the sun
+   (sciencenews.org)
+   42 points by pseudolus 6 hours ago | hide | 17 comments
+   19.
+
+   The MacBook Neo (daringfireball.net)
+   562 points by etothet 22 hours ago | hide | 900 comments
+   20.
+
+   Many SWE-bench-Passing PRs would not be merged (metr.org)
+   248 points by mustaphah 15 hours ago | hide | 128 comments
+   21.
+
+   Thinnings: Sublist Witnesses and de Bruijn Index Shift Clumping
+   (philipzucker.com)
+   3 points by matt_d 1 hour ago | hide | discuss
+   22.
+
+   Show HN: I built a tool that watches webpages and exposes changes as
+   RSS (sitespy.app)
+   267 points by vkuprin 19 hours ago | hide | 67 comments
+   23.
+
+   Google closes deal to acquire Wiz (wiz.io)
+   302 points by aldarisbm 21 hours ago | hide | 178 comments
+   24.
+
+   BitNet: Inference framework for 1-bit LLMs (github.com/microsoft)
+   349 points by redm 23 hours ago | hide | 163 comments
+   25.
+
+   Faster asin() was hiding in plain sight (16bpp.net)
+   218 points by def-pri-pub 21 hours ago | hide | 120 comments
+   26.
+
+   Personal Computer by Perplexity (perplexity.ai)
+   172 points by josephwegner 17 hours ago | hide | 133 comments
+   27.
+
+   Entities enabling scientific fraud at scale (2025) (doi.org)
+   294 points by peyton 22 hours ago | hide | 202 comments
+   28.
+
+   Galaxy Zoo (zooniverse.org)
+   19 points by mooreds 3 hours ago | hide | 2 comments
+   29.
+
+   What Happens After You Die? (2016) (lamag.com)
+   51 points by NaOH 9 hours ago | hide | 33 comments
+   30.
+
+   About memory pressure, lock contention, and Data-oriented Design
+   (mnt.io)
+   60 points by vinhnx 10 hours ago | hide | 12 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 587f356d-bc3f-4e73-9a6f-b2f18515518e
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Bucketsquatting Is (Finally) Dead (onecloudplease.com)
+   24 points by boyter 51 minutes ago | hide | 8 comments
+   2.
+
+   Willingness to look stupid (sharif.io)
+   303 points by Samin100 6 hours ago | hide | 110 comments
+   3.
+
+   Executing programs inside transformers with exponentially faster
+   inference (percepta.ai)
+   84 points by u1hcw9nx 2 hours ago | hide | 12 comments
+   4.
+
+   Malus – Clean Room as a Service (malus.sh)
+   1252 points by microflash 19 hours ago | hide | 453 comments
+   5.
+
+   Vite 8.0 Is Out (vite.dev)
+   255 points by kothariji 4 hours ago | hide | 65 comments
+   6.
+
+   “This is not the computer for you” (samhenri.gold)
+   421 points by MBCook 7 hours ago | hide | 164 comments
+   7.
+
+   Prefix sums at gigabytes per second with ARM NEON (lemire.me)
+   37 points by mfiguiere 4 hours ago | hide | 3 comments
+   8.
+
+   Hyperlinks in Terminal Emulators (gist.github.com)
+   54 points by nvahalik 5 hours ago | hide | 36 comments
+   9.
+
+   Bubble Sorted Amen Break (parametricavocado.itch.io)
+   331 points by eieio 16 hours ago | hide | 99 comments
+   10.
+
+   ATMs didn’t kill bank teller jobs, but the iPhone did (davidoks.blog)
+   415 points by colinprince 18 hours ago | hide | 439 comments
+   11.
+
+   Shall I implement it? No (gist.github.com)
+   1252 points by breton 12 hours ago | hide | 469 comments
+   12.
+
+   Understanding the Go Runtime: The Scheduler (internals-for-interns.com)
+   109 points by valyala 10 hours ago | hide | 10 comments
+   13.
+
+   Reversing memory loss via gut-brain communication (stanford.edu)
+   306 points by mustaphah 16 hours ago | hide | 121 comments
+   14.
+
+   IMG_0416 (2024) (ben-mini.com)
+   88 points by TigerUniversity 8 hours ago | hide | 17 comments
+   15.
+
+   The Met releases high-def 3D scans of 140 famous art objects
+   (openculture.com)
+   280 points by coloneltcb 17 hours ago | hide | 54 comments
+   16.
+
+   Worldwide Sidewalk Joy: Adding whimsy to neighborhoods
+   (worldwidesidewalkjoy.com)
+   15 points by NaOH 3 hours ago | hide | 3 comments
+   17.
+
+   Document poisoning in RAG systems: How attackers corrupt AI's sources
+   (aminrj.com)
+   117 points by aminerj 13 hours ago | hide | 46 comments
+   18.
+
+   Never Snooze a Future (jacko.io)
+   13 points by vinhnx 3 hours ago | hide | 2 comments
+   19.
+
+   Specimen Gallery – CC0 transparent specimen PNGs organized by taxonomy
+   (specimen.gallery)
+   4 points by eclectic_mind05 2 hours ago | hide | 1 comment
+   20.
+
+   Celebrating Interesting Flickr Technologies (medium.com/brightcarvings)
+   32 points by steerpike 6 hours ago | hide | 7 comments
+   21.
+
+   US private credit defaults hit record 9.2% in 2025, Fitch says
+   (marketscreener.com)
+   356 points by JumpCrisscross 20 hours ago | hide | 410 comments
+   22.
+
+   Grief and the AI split (lmorchard.com)
+   142 points by avernet 10 hours ago | hide | 220 comments
+   23.
+
+   Bringing Chrome to ARM64 Linux Devices (chromium.org)
+   104 points by ingve 13 hours ago | hide | 47 comments
+   24.
+
+   Ceno, browse the web without internet access (ceno.app)
+   6 points by mohsen1 2 hours ago | hide | 2 comments
+   25.
+
+   Can you instruct a robot to make a PBJ sandwich? (deliberateinc.com)
+   27 points by mooreds 6 hours ago | hide | 30 comments
+   26.
+
+   Innocent woman jailed after being misidentified using AI facial
+   recognition (grandforksherald.com)
+   603 points by rectang 12 hours ago | hide | 307 comments
+   27.
+
+   Big data on the cheapest MacBook (duckdb.org)
+   351 points by bcye 21 hours ago | hide | 278 comments
+   28.
+
+   WolfIP: Lightweight TCP/IP stack with no dynamic memory allocations
+   (github.com/wolfssl)
+   127 points by 789c789c789c 17 hours ago | hide | 22 comments
+   29.
+
+   Are LLM merge rates not getting better? (entropicthoughts.com)
+   149 points by 4diii 21 hours ago | hide | 134 comments
+   30.
+
+   Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference
+   (ionrouter.io)
+   63 points by vshah1016 14 hours ago | hide | 25 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 0b44a409-ef30-4174-a214-a9d0d477f73f
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   1M context is now generally available for Opus 4.6 and Sonnet 4.6
+   (claude.com)
+   777 points by meetpateltech 12 hours ago | hide | 302 comments
+   2.
+
+   Baochip-1x: What It Is, Why I'm Doing It Now and How It Came About
+   (crowdsupply.com)
+   21 points by timhh 2 hours ago | hide | 2 comments
+   3.
+
+   A Survival Guide to a PhD (2016) (karpathy.github.io)
+   108 points by vismit2000 7 hours ago | hide | 58 comments
+   4.
+
+   Qatar helium shutdown puts chip supply chain on a two-week clock
+   (tomshardware.com)
+   591 points by johnbarron 23 hours ago | hide | 509 comments
+   5.
+
+   You gotta think outside the hypercube (lcamtuf.substack.com)
+   66 points by surprisetalk 6 hours ago | hide | 18 comments
+   6.
+
+   Show HN: Channel Surfer – Watch YouTube like it’s cable TV
+   (channelsurfer.tv)
+   520 points by kilroy123 19 hours ago | hide | 152 comments
+   7.
+
+   The Isolation Trap: Erlang (causality.blog)
+   53 points by enz 6 hours ago | hide | 8 comments
+   8.
+
+   Recursive Problems Benefit from Recursive Solutions (jnkr.tech)
+   25 points by luispa 5 hours ago | hide | 7 comments
+   9.
+
+   Mouser: An open source alternative to Logi-Plus mouse software
+   (github.com/tombadash)
+   325 points by avionics-guy 16 hours ago | hide | 93 comments
+   10.
+
+   Wired headphone sales are exploding (bbc.com)
+   152 points by billybuckwheat 15 hours ago | hide | 254 comments
+   11.
+
+   Hammerspoon (github.com/hammerspoon)
+   291 points by tosh 17 hours ago | hide | 105 comments
+   12.
+
+   I found 39 Algolia admin keys exposed across open source documentation
+   sites (benzimmermann.dev)
+   131 points by kernelrocks 12 hours ago | hide | 32 comments
+   13.
+
+   UCP Protocol: The Internet Has 100M Shops and No Front Door
+   (askucp.com)
+   6 points by defencetechhn 1 hour ago | hide | 5 comments
+   14.
+
+   AEP (API Design Standard and Tooling Ecosystem) (aep.dev)
+   17 points by rambleraptor 5 hours ago | hide | 4 comments
+   15.
+
+   Can I run AI locally? (canirun.ai)
+   1241 points by ricardbejarano 22 hours ago | hide | 307 comments
+   16.
+
+   Parallels confirms MacBook Neo can run Windows in a virtual machine
+   (macrumors.com)
+   273 points by tosh 21 hours ago | hide | 382 comments
+   17.
+
+   Atari 2600 BASIC Programming (2015) (huguesjohnson.com)
+   29 points by mondobe 7 hours ago | hide | 6 comments
+   18.
+
+   Optimizing Content for Agents (cra.mr)
+   49 points by vinhnx 9 hours ago | hide | 18 comments
+   19.
+
+   Digg is gone again (digg.com)
+   198 points by hammerbrostime 16 hours ago | hide | 178 comments
+   20.
+
+   Emacs and Vim in the Age of AI (batsov.com)
+   153 points by psibi 9 hours ago | hide | 93 comments
+   21.
+
+   Games with loot boxes to get minimum 16 age rating across Europe
+   (bbc.com)
+   212 points by gostsamo 11 hours ago | hide | 122 comments
+   22.
+
+   I beg you to follow Crocker's Rules, even if you will be rude to me
+   (lr0.org)
+   78 points by ghd_ 12 hours ago | hide | 117 comments
+   23.
+
+   Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware
+   (github.com/drojaazu)
+   5 points by XzetaU8 2 hours ago | hide | discuss
+   24.
+
+   RAM kits are now sold with one fake RAM stick alongside a real one
+   (tomshardware.com)
+   13 points by edward 1 hour ago | hide | 3 comments
+   25.
+
+   New 'negative light' technology hides data transfers in plain sight
+   (unsw.edu.au)
+   89 points by wjSgoWPm5bWAhXB 16 hours ago | hide | 55 comments
+   26.
+
+   Coding after coders: The end of computer programming as we know it?
+   (nytimes.com)
+   132 points by angst 19 hours ago | hide | 162 comments
+   27.
+
+   Elon Musk pushes out more xAI founders as AI coding effort falters
+   (ft.com)
+   446 points by merksittich 17 hours ago | hide | 669 comments
+   28.
+
+   Using Thunderbird for RSS (rubenerd.com)
+   104 points by ingve 17 hours ago | hide | 30 comments
+   29.
+
+   Our Experience with I-Ready (moultano.wordpress.com)
+   72 points by barry-cotter 11 hours ago | hide | 25 comments
+   30.
+
+   Show HN: Context Gateway – Compress agent context before it hits the
+   LLM (github.com/compresr-ai)
+   83 points by ivzak 17 hours ago | hide | 49 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 4032340c-b2af-4321-afc6-b1e8f158831f
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   1M context is now generally available for Opus 4.6 and Sonnet 4.6
+   (claude.com)
+   783 points by meetpateltech 12 hours ago | hide | 304 comments
+   2.
+
+   Baochip-1x: What It Is, Why I'm Doing It Now and How It Came About
+   (crowdsupply.com)
+   25 points by timhh 2 hours ago | hide | 2 comments
+   3.
+
+   A Survival Guide to a PhD (2016) (karpathy.github.io)
+   109 points by vismit2000 8 hours ago | hide | 58 comments
+   4.
+
+   Qatar helium shutdown puts chip supply chain on a two-week clock
+   (tomshardware.com)
+   596 points by johnbarron 23 hours ago | hide | 509 comments
+   5.
+
+   You gotta think outside the hypercube (lcamtuf.substack.com)
+   68 points by surprisetalk 6 hours ago | hide | 18 comments
+   6.
+
+   Show HN: Channel Surfer – Watch YouTube like it’s cable TV
+   (channelsurfer.tv)
+   524 points by kilroy123 19 hours ago | hide | 153 comments
+   7.
+
+   UCP Protocol: The Internet Has 100M Shops and No Front Door
+   (askucp.com)
+   8 points by defencetechhn 1 hour ago | hide | 6 comments
+   8.
+
+   The Isolation Trap: Erlang (causality.blog)
+   55 points by enz 6 hours ago | hide | 8 comments
+   9.
+
+   Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware
+   (github.com/drojaazu)
+   7 points by XzetaU8 2 hours ago | hide | discuss
+   10.
+
+   Recursive Problems Benefit from Recursive Solutions (jnkr.tech)
+   26 points by luispa 5 hours ago | hide | 7 comments
+   11.
+
+   Mouser: An open source alternative to Logi-Plus mouse software
+   (github.com/tombadash)
+   326 points by avionics-guy 16 hours ago | hide | 93 comments
+   12.
+
+   Wired headphone sales are exploding (bbc.com)
+   155 points by billybuckwheat 15 hours ago | hide | 256 comments
+   13.
+
+   Hammerspoon (github.com/hammerspoon)
+   291 points by tosh 17 hours ago | hide | 105 comments
+   14.
+
+   I found 39 Algolia admin keys exposed across open source documentation
+   sites (benzimmermann.dev)
+   131 points by kernelrocks 12 hours ago | hide | 32 comments
+   15.
+
+   AEP (API Design Standard and Tooling Ecosystem) (aep.dev)
+   19 points by rambleraptor 5 hours ago | hide | 4 comments
+   16.
+
+   Can I run AI locally? (canirun.ai)
+   1241 points by ricardbejarano 22 hours ago | hide | 308 comments
+   17.
+
+   Parallels confirms MacBook Neo can run Windows in a virtual machine
+   (macrumors.com)
+   273 points by tosh 21 hours ago | hide | 382 comments
+   18.
+
+   Atari 2600 BASIC Programming (2015) (huguesjohnson.com)
+   29 points by mondobe 7 hours ago | hide | 6 comments
+   19.
+
+   Optimizing Content for Agents (cra.mr)
+   49 points by vinhnx 9 hours ago | hide | 18 comments
+   20.
+
+   Digg is gone again (digg.com)
+   200 points by hammerbrostime 16 hours ago | hide | 178 comments
+   21.
+
+   Emacs and Vim in the Age of AI (batsov.com)
+   153 points by psibi 9 hours ago | hide | 93 comments
+   22.
+
+   Games with loot boxes to get minimum 16 age rating across Europe
+   (bbc.com)
+   212 points by gostsamo 11 hours ago | hide | 124 comments
+   23.
+
+   I beg you to follow Crocker's Rules, even if you will be rude to me
+   (lr0.org)
+   78 points by ghd_ 12 hours ago | hide | 118 comments
+   24.
+
+   How Lego builds a new Lego set (theverge.com)
+   3 points by Michelangelo11 5 minutes ago | hide | discuss
+   25.
+
+   RAM kits are now sold with one fake RAM stick alongside a real one
+   (tomshardware.com)
+   13 points by edward 1 hour ago | hide | 3 comments
+   26.
+
+   New 'negative light' technology hides data transfers in plain sight
+   (unsw.edu.au)
+   89 points by wjSgoWPm5bWAhXB 16 hours ago | hide | 55 comments
+   27.
+
+   Coding after coders: The end of computer programming as we know it?
+   (nytimes.com)
+   132 points by angst 19 hours ago | hide | 163 comments
+   28.
+
+   Elon Musk pushes out more xAI founders as AI coding effort falters
+   (ft.com)
+   446 points by merksittich 17 hours ago | hide | 669 comments
+   29.
+
+   Using Thunderbird for RSS (rubenerd.com)
+   104 points by ingve 17 hours ago | hide | 30 comments
+   30.
+
+   Our Experience with I-Ready (moultano.wordpress.com)
+   72 points by barry-cotter 11 hours ago | hide | 26 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: a5d4301b-25b0-4ee8-a05f-f35144bbd1b8
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   $96 3D-printed rocket that recalculates its mid-air trajectory using a
+   $5 sensor (github.com/novatic14)
+   123 points by ZacnyLos 2 hours ago | hide | 54 comments
+   2.
+
+   A Visual Introduction to Machine Learning (r2d3.us)
+   80 points by vismit2000 1 hour ago | hide | 4 comments
+   3.
+
+   Generating All 32-Bit Primes (Part I) (hnlyman.github.io)
+   17 points by hnlyman 1 hour ago | hide | 3 comments
+   4.
+
+   Rack-mount hydroponics (lj.am)
+   206 points by cdrnsf 8 hours ago | hide | 48 comments
+   5.
+
+   The Appalling Stupidity of Spotify's AI DJ (charlespetzold.com)
+   192 points by ingve 4 hours ago | hide | 163 comments
+   6.
+
+   Show HN: Signet – Autonomous wildfire tracking from satellite and
+   weather data (signet.watch)
+   4 points by mapldx 42 minutes ago | hide | discuss
+   7.
+
+   Why Mathematica does not simplify sinh(arccosh(x)) (johndcook.com)
+   90 points by ibobev 7 hours ago | hide | 21 comments
+   8.
+
+   Examples for the tcpdump and dig man pages (jvns.ca)
+   22 points by ibobev 3 hours ago | hide | 3 comments
+   9.
+
+   A most elegant TCP hole punching algorithm (robertsdotpm.github.io)
+   115 points by Uptrenda 9 hours ago | hide | 44 comments
+   10.
+
+   How kernel anti-cheats work (s4dbrd.github.io)
+   226 points by davikr 12 hours ago | hide | 196 comments
+   11.
+
+   Treasure hunter freed from jail after refusing to turn over shipwreck
+   gold (bbc.com)
+   116 points by tartoran 9 hours ago | hide | 148 comments
+   12.
+
+   Allow me to get to know you, mistakes and all (sebi.io)
+   187 points by sebi_io 14 hours ago | hide | 80 comments
+   13.
+
+   Show HN: Han – A Korean programming language written in Rust
+   (github.com/xodn348)
+   184 points by xodn348 15 hours ago | hide | 101 comments
+   14.
+
+   IBM, sonic delay lines, and the history of the 80×24 display
+   (righto.com)
+   5 points by rbanffy 1 hour ago | hide | discuss
+   15.
+
+   SBCL Fibers – Lightweight Cooperative Threads (atgreen.github.io)
+   115 points by anonzzzies 13 hours ago | hide | 20 comments
+   16.
+
+   Centuries of selective breeding turned wild cabbage into different
+   vegetables (worksinprogress.news)
+   69 points by bensouthwood 10 hours ago | hide | 24 comments
+   17.
+
+   Ageless Linux – Software for humans of indeterminate age
+   (agelesslinux.org)
+   684 points by nateb2022 14 hours ago | hide | 451 comments
+   18.
+
+   Bumblebee queens breathe underwater to survive drowning
+   (smithsonianmag.com)
+   149 points by 1659447091 15 hours ago | hide | 29 comments
+   19.
+
+   Mathematics Distillation Challenge – Equational Theories
+   (terrytao.wordpress.com)
+   80 points by picafrost 11 hours ago | hide | 3 comments
+   20.
+
+   MCP is dead; long live MCP (chrlschn.dev)
+   174 points by CharlieDigital 17 hours ago | hide | 153 comments
+   21.
+
+   Tree Search Distillation for Language Models Using PPO
+   (ayushtambde.com)
+   67 points by at2005 11 hours ago | hide | 5 comments
+   22.
+
+   Slicing Bezier Surfaces (fatih-erikli-potato.github.io)
+   14 points by fatih-erikli-cg 4 hours ago | hide | 4 comments
+   23.
+
+   A look inside Dialector, filmmaker Chris Marker's chatbot from 1988
+   (kubicki.org)
+   52 points by kosmavision 11 hours ago | hide | 4 comments
+   24.
+
+   An ode to bzip (purplesyringa.moe)
+   150 points by signa11 20 hours ago | hide | 81 comments
+   25.
+
+   Discovering Little Worlds (2020) (dmitrybrant.com)
+   7 points by wonger_ 2 hours ago | hide | discuss
+   26.
+
+   The mechanics of autonomous software translation (alperenkeles.com)
+   23 points by alpaylan 7 hours ago | hide | 1 comment
+   27.
+
+   A Recursive Algorithm to Render Signed Distance Fields
+   (pointersgonewild.com)
+   105 points by surprisetalk 17 hours ago | hide | 7 comments
+   28.
+
+   Marketing for Founders (github.com/edostra)
+   196 points by jimsojim 17 hours ago | hide | 88 comments
+   29.
+
+   Baochip-1x: What it is, why I'm doing it now and how it came about
+   (crowdsupply.com)
+   326 points by timhh 1 day ago | hide | 71 comments
+   30.
+
+   Fedora 44 on the Raspberry Pi 5 (nullr0ute.com)
+   106 points by jandeboevrie 16 hours ago | hide | 33 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 2de5b230-8271-4bf7-8065-c215fd2e14d9
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   Kagi Small Web (kagi.com)
+   144 points by trueduke 1 hour ago | hide | 23 comments
+   2.
+
+   Kagi Translate now supports LinkedIn Speak as an output language
+   (kagi.com)
+   662 points by smitec 6 hours ago | hide | 168 comments
+   3.
+
+   Building a Shell (healeycodes.com)
+   26 points by ingve 1 hour ago | hide | 1 comment
+   4.
+
+   Grace Hopper's Revenge (thefuriousopposites.com)
+   24 points by ashirviskas 1 hour ago | hide | 18 comments
+   5.
+
+   Leanstral: Open-source agent for trustworthy coding and formal proof
+   engineering (mistral.ai)
+   586 points by Poudlardo 14 hours ago | hide | 127 comments
+   6.
+
+   The unlikely story of Teardown Multiplayer (voxagon.se)
+   110 points by lairv 6 hours ago | hide | 17 comments
+   7.
+
+   Reverse-engineering Viktor and making it Open Source
+   (matijacniacki.com)
+   34 points by zggf 3 hours ago | hide | 11 comments
+   8.
+
+   Meta’s renewed commitment to jemalloc (fb.com)
+   447 points by hahahacorn 17 hours ago | hide | 196 comments
+   9.
+
+   The “small web” is bigger than you might think (kevinboone.me)
+   446 points by speckx 18 hours ago | hide | 188 comments
+   10.
+
+   The American Healthcare Conundrum (github.com/rexrodeo)
+   371 points by rexroad 18 hours ago | hide | 323 comments
+   11.
+
+   What CI looks like at a 100-person team (PostHog) (mendral.com)
+   19 points by shad42 3 hours ago | hide | 5 comments
+   12.
+
+   Sci-Fi Short Film “There Is No Antimemetics Division” [video]
+   (youtube.com)
+   120 points by Anon84 9 hours ago | hide | 25 comments
+   13.
+
+   Every layer of review makes you 10x slower (apenwarr.ca)
+   277 points by greyface- 8 hours ago | hide | 167 comments
+   14.
+
+   US SEC preparing to scrap quarterly reporting requirement (reuters.com)
+   596 points by djoldman 11 hours ago | hide | 322 comments
+   15.
+
+   Gitana 18: the new flying Ultim trimaran (boatnews.com)
+   44 points by divbzero 6 hours ago | hide | 14 comments
+   16.
+
+   Gummy Geometry (newkrok.github.io)
+   7 points by memalign 2 hours ago | hide | 3 comments
+   17.
+
+   Pyodide: a Python distribution based on WebAssembly
+   (github.com/pyodide)
+   96 points by tosh 10 hours ago | hide | 25 comments
+   18.
+
+   My Journey to a reliable and enjoyable locally hosted voice assistant
+   (2025) (home-assistant.io)
+   376 points by Vaslo 22 hours ago | hide | 116 comments
+   19.
+
+   Beyond has dropped “meat” from its name and expanded its high-protein
+   drink line (plantbasednews.org)
+   140 points by rmason 14 hours ago | hide | 326 comments
+   20.
+
+   Fatal Core Dump Game (robopenguins.com)
+   12 points by pabs3 4 hours ago | hide | 2 comments
+   21.
+
+   Why I love FreeBSD (dragas.net)
+   447 points by enz 1 day ago | hide | 217 comments
+   22.
+
+   Claude Tips for 3D Work (davesnider.com)
+   101 points by snide 7 hours ago | hide | 20 comments
+   23.
+
+   Show HN: Oxyde – Pydantic-native async ORM with a Rust core
+   (github.com/mr-fatalyst)
+   113 points by mr_Fatalyst 14 hours ago | hide | 60 comments
+   24.
+
+   Starlink Mini as a failover (jackpearce.co.uk)
+   268 points by jkpe 23 hours ago | hide | 201 comments
+   25.
+
+   Monkey Island for Commodore 64 Ground Up (pixeldust.se)
+   144 points by aresant 7 hours ago | hide | 56 comments
+   26.
+
+   Reddit User Uncovers Who Is Behind Meta's $2B Lobbying for Age
+   Verification Tech (gadgetreview.com)
+   9 points by doener 46 minutes ago | hide | discuss
+   27. [s.gif] AnswerThis (YC F25) Is Hiring (ycombinator.com)
+   14 hours ago | hide
+   28.
+
+   Show HN: Thermal Receipt Printers – Markdown and Web UI
+   (github.com/sadreck)
+   92 points by howlett 13 hours ago | hide | 34 comments
+   29.
+
+   In space, no one can hear you kernel panic (2020) (increment.com)
+   65 points by p0u4a 12 hours ago | hide | 15 comments
+   30.
+
+   AirPods Max 2 (apple.com)
+   284 points by ssijak 22 hours ago | hide | 477 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 5eb0347c-9a05-4761-8422-f5ef4669fda4
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   2% of ICML papers desk rejected because the authors used LLM in their
+   reviews (icml.cc)
+   81 points by sergdigon 1 hour ago | hide | 55 comments
+   2.
+
+   Conway's Game of Life, in real life (lcamtuf.substack.com)
+   169 points by surprisetalk 7 hours ago | hide | 40 comments
+   3.
+
+   Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe
+   (gitlab.com/isolatedoctopi)
+   363 points by mmastrac 15 hours ago | hide | 79 comments
+   4.
+
+   Warranty Void If Regenerated (nearzero.software)
+   375 points by Stwerner 15 hours ago | hide | 223 comments
+   5.
+
+   OpenRocket (openrocket.info)
+   587 points by zeristor 20 hours ago | hide | 103 comments
+   6.
+
+   Stdwin: Standard window interface by Guido Van Rossum [pdf] (cwi.nl)
+   35 points by ivanbelenky 4 hours ago | hide | 16 comments
+   7.
+
+   Austin’s surge of new housing construction drove down rents (pew.org)
+   581 points by matthest 11 hours ago | hide | 682 comments
+   8.
+
+   LotusNotes (computer.rip)
+   104 points by TMWNN 10 hours ago | hide | 51 comments
+   9.
+
+   Why Cloudflare rule order matters? (brzozowski.io)
+   40 points by redfr0g 4 hours ago | hide | 7 comments
+   10.
+
+   A sufficiently detailed spec is code (haskellforall.com)
+   412 points by signa11 9 hours ago | hide | 214 comments
+   11.
+
+   Eniac, the First General-Purpose Digital Computer, Turns 80 (ieee.org)
+   26 points by baruchel 5 hours ago | hide | 17 comments
+   12.
+
+   Wander – A tiny, decentralised tool to explore the small web
+   (susam.net)
+   292 points by susam 18 hours ago | hide | 73 comments
+   13.
+
+   Autoresearch for SAT Solvers (github.com/iliazintchenko)
+   136 points by chaisan 11 hours ago | hide | 26 comments
+   14.
+
+   Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No
+   training (github.com/alainnothere)
+   140 points by xlayn 12 hours ago | hide | 43 comments
+   15.
+
+   Nvidia NemoClaw (github.com/nvidia)
+   326 points by hmokiguess 20 hours ago | hide | 217 comments
+   16.
+
+   RX – a new random-access JSON alternative (github.com/creationix)
+   102 points by creationix 11 hours ago | hide | 42 comments
+   17.
+
+   Cook: A simple CLI for orchestrating Claude Code (rjcorwin.github.io)
+   224 points by staticvar 9 hours ago | hide | 58 comments
+   18.
+
+   Show HN: I built 48 lightweight SVG backgrounds you can copy/paste
+   (svgbackgrounds.com)
+   287 points by visiwig 19 hours ago | hide | 58 comments
+   19.
+
+   The math that explains why bell curves are everywhere
+   (quantamagazine.org)
+   145 points by ibobev 14 hours ago | hide | 85 comments
+   20.
+
+   Show HN: Pano, a bookmarking tool built around shareable shelves
+   (panoit.com)
+   26 points by uelbably 6 hours ago | hide | 11 comments
+   21.
+
+   Mozilla to launch free built-in VPN in upcoming Firefox 149
+   (cyberinsider.com)
+   160 points by adrianwaj 8 hours ago | hide | 108 comments
+   22.
+
+   Show HN: Browser grand strategy game for hundreds of players on huge
+   maps (borderhold.io)
+   39 points by sgolem 9 hours ago | hide | 18 comments
+   23.
+
+   Twelve-Tone Composition (johndcook.com)
+   9 points by ibobev 2 hours ago | hide | 1 comment
+   24.
+
+   Afroman found not liable in defamation case brought by Ohio cops who
+   raided home (nypost.com)
+   15 points by antonymoose 1 hour ago | hide | discuss
+   25.
+
+   Show HN: Will my flight have Starlink?
+   229 points by bblcla 18 hours ago | hide | 302 comments
+   26.
+
+   Czech Man's Stone in Barn's Foundations Is Rare Bronze Age Spearhead
+   Mold (smithsonianmag.com)
+   53 points by bookofjoe 10 hours ago | hide | 17 comments
+   27.
+
+   Book: The Emerging Science of Machine Learning Benchmarks
+   (mlbenchmarks.org)
+   123 points by jxmorris12 17 hours ago | hide | 7 comments
+   28.
+
+   Rob Pike’s Rules of Programming (1989) (unc.edu)
+   939 points by vismit2000 1 day ago | hide | 436 comments
+   29.
+
+   OpenAI Has New Focus (on the IPO) (om.co)
+   237 points by aamederen 1 day ago | hide | 220 comments
+   30.
+
+   What 81,000 people want from AI (anthropic.com)
+   151 points by dsr12 6 hours ago | hide | 124 comments
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+
+CMD::>HubCommand ID: 630aa14d-bbf3-43ea-8b1d-b51417c58f71
+CMD::>HubCommand Name: lynx -dump -nolist https://news.ycombinator.com/
+CMD::>Status: SUCCESS
+CMD::>STDOUT:
+    #RSS
+
+   [y18.svg] Hacker Newsnew | past | comments | ask | show | jobs | submit
+   login
+   1.
+
+   I'm OK being left behind, thanks (shkspr.mobi)
+   454 points by coinfused 1 hour ago | hide | 301 comments
+   2.
+
+   Schizophrenia study finds new biomarker, drug candidate to treat
+   symptoms (northwestern.edu)
+   74 points by gmays 1 hour ago | hide | 25 comments
+   3.
+
+   Chuck Norris Has Died (variety.com)
+   237 points by mp3il 59 minutes ago | hide | 101 comments
+   4.
+
+   Java Is Fast. Your Code Might Not Be (jvogel.me)
+   36 points by siegers 1 hour ago | hide | 36 comments
+   5.
+
+   ArXiv Declares Independence from Cornell (science.org)
+   518 points by bookstore-romeo 10 hours ago | hide | 183 comments
+   6.
+
+   Entso-E final report on Iberian 2025 blackout (entsoe.eu)
+   92 points by Rygian 4 hours ago | hide | 20 comments
+   7.
+
+   Flash-KMeans: Fast and Memory-Efficient Exact K-Means (arxiv.org)
+   100 points by matt_d 6 hours ago | hide | 6 comments
+   8.
+
+   Video Encoding and Decoding with Vulkan Compute Shaders in FFmpeg
+   (khronos.org)
+   60 points by y1n0 4 hours ago | hide | 18 comments
+   9.
+
+   HP realizes that mandatory 15-minute support call wait times isn't good
+   support (arstechnica.com)
+   89 points by felineflock 1 hour ago | hide | 38 comments
+   10.
+
+   The Soul of a Pedicab Driver (sheldonbrown.com)
+   85 points by haritha-j 5 hours ago | hide | 25 comments
+   11.
+
+   The Los Angeles Aqueduct Is Wild (practical.engineering)
+   44 points by michaefe 2 hours ago | hide | 10 comments
+   12.
+
+   Google details new 24-hour process to sideload unverified Android apps
+   (arstechnica.com)
+   1025 points by 0xedb 21 hours ago | hide | 1083 comments
+   13.
+
+   Just Put It on a Map (progressandpoverty.substack.com)
+   62 points by surprisetalk 5 hours ago | hide | 27 comments
+   14.
+
+   Regex Blaster (mdp.github.io)
+   43 points by mdp 3 hours ago | hide | 11 comments
+   15.
+
+   Show HN: Sonar – A tiny CLI to see and kill whatever's running on
+   localhost (github.com/raskrebs)
+   58 points by raskrebs 5 hours ago | hide | 30 comments
+   16.
+
+   Drawvg Filter for FFmpeg (ayosec.github.io)
+   129 points by nolta 8 hours ago | hide | 23 comments
+   17.
+
+   Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found
+   (trustedsec.com)
+   232 points by nyxgeek 13 hours ago | hide | 66 comments
+   18.
+
+   Drugwars for the TI-82/83/83 Calculators (2011) (gist.github.com)
+   218 points by robotnikman 14 hours ago | hide | 64 comments
+   19.
+
+   Too Much Color (keithcirkel.co.uk)
+   66 points by maguay 7 hours ago | hide | 34 comments
+   20.
+
+   Building a Reader for the Smallest Hard Drive (willwhang.dev)
+   72 points by voctor 9 hours ago | hide | 24 comments
+   21.
+
+   Return of the Obra Dinn: spherical mapped dithering for a 1bpp
+   first-person game (tigsource.com)
+   436 points by PaulHoule 21 hours ago | hide | 56 comments
+   22.
+
+   Push events into a running session with channels (claude.com)
+   371 points by jasonjmcghee 14 hours ago | hide | 218 comments
+   23.
+
+   Show HN: Three new Kitten TTS models – smallest less than 25MB
+   (github.com/kittenml)
+   491 points by rohan_joshi 23 hours ago | hide | 166 comments
+   24.
+
+   How the Turner twins are mythbusting modern technical apparel
+   (carryology.com)
+   296 points by greedo 18 hours ago | hide | 154 comments
+   25.
+
+   Cursor Composer 2 is just Kimi K2.5 with RL (twitter.com/fynnso)
+   201 points by mirzap 5 hours ago | hide | 94 comments
+   26.
+
+   FSF statement on copyright infringement lawsuit Bartz v. Anthropic
+   (fsf.org)
+   165 points by m463 10 hours ago | hide | 75 comments
+   27.
+
+   4Chan mocks £520k fine for UK online safety breaches (bbc.com)
+   428 points by mosura 1 day ago | hide | 794 comments
+   28.
+
+   Cockpit is a web-based graphical interface for servers
+   (github.com/cockpit-project)
+   299 points by modinfo 18 hours ago | hide | 169 comments
+   29.
+
+   Germany Mandates ODF for Public Administration (linuxiac.com)
+   15 points by mvdwoord 1 hour ago | hide | discuss
+   30.
+
+   The Social Smolnet (ploum.net)
+   4 points by aebtebeten 2 hours ago | hide | discuss
+   More
+   [s.gif]
+
+      Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
+                                   Contact
+                          Search: _________________
+

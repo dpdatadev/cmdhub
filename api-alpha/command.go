@@ -39,6 +39,7 @@ type HubCommand struct {
 	Category int
 	Args     []string
 	Notes    string
+	CmdFunc  func(...any) any //Treat regular Go functions as "Commands"
 
 	Stdout   string
 	Stderr   string
