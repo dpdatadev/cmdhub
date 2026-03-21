@@ -29,7 +29,7 @@ func ExecuteHub() {
 	executor := hub.NewLocalExecutor()                                // Default local Executor
 	store := hub.NewSqliteHubCommandStore(db)                         // Sqlite DB for persistence
 	service := hub.NewHubCommandService(store, executor)              // Orchestrator
-	ctx, _ := jobs.DefaultCtx()                                       // 30 Second Timeout Context
+	ctx, _ := hub.LongRunningCtx()                                    // 30 Second Timeout Context
 	results := jobs.MultiExec(service, ctx, commandsToRun, willDebug) // Run each command from text file as Go routine in Wait Group
 
 	// Display results

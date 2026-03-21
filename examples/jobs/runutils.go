@@ -4,12 +4,7 @@ import (
 	"context"
 	hub "dpdigital/cmdhub/api-alpha"
 	"sync"
-	"time"
 )
-
-func DefaultCtx() (context.Context, context.CancelFunc) {
-	return context.WithTimeout(context.Background(), 10*time.Second)
-}
 
 // Helper/Testing function to run multiple Commands
 func MultiExec(

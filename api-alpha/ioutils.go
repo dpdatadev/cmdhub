@@ -1,11 +1,13 @@
 package internal
 
 import (
+	"context"
 	"errors"
 	"fmt"
 	"log"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/fatih/color"
 	"github.com/google/uuid"
@@ -19,6 +21,14 @@ var (
 	PrintFailure  = color.New(color.Bold, color.FgRed, color.Underline).PrintfFunc()
 	PrintDebug    = color.New(color.Bold, color.FgBlue, color.Italic).PrintfFunc()
 )
+
+func DefaultCtx() (context.Context, context.CancelFunc) {
+	return context.WithTimeout(context.Background(), 10*time.Second)
+}
+
+func LongRunningCtx() (context.Context, context.CancelFunc) {
+	return context.WithTimeout(context.Background(), 10*time.Second)
+}
 
 type CmdIOHelper struct{}
 

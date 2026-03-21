@@ -11,6 +11,7 @@ import (
 
 // Reporting the status of the HubCommand
 const (
+	StatusTracked  = "TRACKED"
 	StatusPending  = "PENDING"
 	StatusRunning  = "RUNNING"
 	StatusSuccess  = "SUCCESS"

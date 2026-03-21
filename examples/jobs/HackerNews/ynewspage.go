@@ -16,7 +16,6 @@ Don't worry, you're going to bypass all this in practice by just using the Hub C
 */
 import (
 	hub "dpdigital/cmdhub/api-alpha"
-	"dpdigital/cmdhub/examples/jobs"
 	"log"
 	"os"
 	"time"
@@ -50,8 +49,8 @@ func Dump() {
 	store := hub.NewSqliteHubCommandStore(db)
 
 	//User will provide their own context that fits their needs
-	ctx, cancel := jobs.DefaultCtx() //(runutils.go) Background ctx w/ 10 second timeout
-	defer cancel()                   //dont forget
+	ctx, cancel := hub.DefaultCtx() //(runutils.go) Background ctx w/ 10 second timeout
+	defer cancel()                  //dont forget
 
 	//BYOC (Bring your own Command)
 	//The user is choosing to use a third party command
