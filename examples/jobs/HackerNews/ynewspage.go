@@ -15,7 +15,7 @@ an SSH Proxy command (easySSH).
 Don't worry, you're going to bypass all this in practice by just using the Hub CLI tool. :D
 */
 import (
-	hub "dpdigital/cmdhub/api-alpha"
+	hub "dpdigital/cmdhub/api-beta"
 	"log"
 	"os"
 	"time"

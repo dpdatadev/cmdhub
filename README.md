@@ -1,8 +1,9 @@
 More documentation to come.
-PRE-ALPHA - EARLY DEVELOPMENT
+PRE-BETA - EARLY DEVELOPMENT
 
+Derek Pauley
 dpdatadev@gmail.com
 
-DP DIGITAL SOLUTIONS, LLC.
+MIT License
 
-_Starting off as a single application with the framework code embedded, while I build it out around my specific needs._
+Copyright (c) 2026 DP Digital Solutions, LLC

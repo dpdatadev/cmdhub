@@ -1,7 +1,7 @@
 package filerunner
 
 import (
-	hub "dpdigital/cmdhub/api-alpha"
+	hub "dpdigital/cmdhub/api-beta"
 	"dpdigital/cmdhub/examples/jobs"
 )
 

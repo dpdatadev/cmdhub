@@ -1,4 +1,4 @@
-package internal
+package api
 
 import (
 	"context"
@@ -67,7 +67,7 @@ func (io *CmdIOHelper) ParseHubCommands(fileName string) []*HubCommand {
 	for cmd := range HubCommandLines {
 		//Ignore commented out HubCommands
 		if !strings.HasPrefix(cmd, "//") && !strings.HasPrefix(cmd, "##") {
-			cmdFields := strings.Fields(cmd) //Each white space separated word
+			cmdFields := strings.Fields(cmd) //Each word separated by white space (typically, a single space)
 			cmdName := cmdFields[0]          //First word is always the Program.
 			cmdArgs := cmdFields[1:]         //Starting at position 1, get each word (Arguments)
 			cmdNotes := fmt.Sprintf("Ingested from %s", fileName)

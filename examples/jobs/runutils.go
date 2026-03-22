@@ -2,7 +2,7 @@ package jobs
 
 import (
 	"context"
-	hub "dpdigital/cmdhub/api-alpha"
+	hub "dpdigital/cmdhub/api-beta"
 	"sync"
 )
 
