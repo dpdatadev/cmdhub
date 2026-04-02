@@ -19,7 +19,7 @@ What this project will eventually be:
 //Track, audit, and chain shell, SSH, HTTP, and file commands into reproducible execution graphs — with Redis caching and database storage built in.
 
 pipeline := hub.NewPipeline()
-//Pipeline must be done before Beta
+
 pipeline.
     //RedisCommandCache("command:registry")
     SSH(sshConfig, "journalctl", []string{"-n", "500"}).
