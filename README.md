@@ -14,7 +14,7 @@ In this example, persistence is handled by the HubStore (SQLITE default, could b
 ##API compliant execution is handled by the executor which applies secruity scrubbers to handle off limit command text.
 
 ##The HubCommandService orchestrates the redirection of Stdout and Stderr to a database, handles security and lineage (batch id tracking and command history replay)
-```
+```go
 package filerunner
 
 import (
