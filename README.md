@@ -1,5 +1,5 @@
 More documentation to come.
-PRE-BETA - EARLY DEVELOPMENT
+EARLY BETA - EARLY DEVELOPMENT
 
 Derek Pauley
 dpdatadev@gmail.com
@@ -8,10 +8,10 @@ MIT License
 
 Copyright (c) 2026 DP Digital Solutions, LLC
 
-##Full Example handling Asynchoronous Job runners fed from shell commands in a text file.
+#Full Example handling Asynchoronous Job runners fed from shell commands in a text file.
 In this example, persistence is handled by the HubStore (SQLITE default, could be Gorm or Redis)
 
-##API compliant execution is handled by the executor which applies secruity scrubbers to handle off limit command text.
+#API compliant execution is handled by the executor which applies secruity scrubbers to handle off limit command text.
 
 ##The HubCommandService orchestrates the redirection of Stdout and Stderr to a database, handles security and lineage (batch id tracking and command history replay)
 ```go
