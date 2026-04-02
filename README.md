@@ -8,6 +8,9 @@ MIT License
 
 Copyright (c) 2026 DP Digital Solutions, LLC
 
+##CMDHUB##
+CMDHUB is a composable, remote, multi-protocol execution framework for building robust IO pipelines in Go. OS/EXEC is the heart of the system with options for persistence, auditing, and lineage graphs.
+
 Full Example handling Asynchoronous Job runners fed from shell commands in a text file.
 In this example, persistence is handled by the HubStore (SQLITE default, could be Gorm or Redis)
 
