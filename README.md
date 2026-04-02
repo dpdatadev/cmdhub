@@ -60,7 +60,7 @@ func ExecuteHub() {
 ```
 
 Using third party Execx to run a system command to dump Hackernews - with Security policy and Persistance Layer manually configured instead of default Service layer abstraction (NewHubCommandService)
-```
+```go
 import (
 	hub "dpdigital/cmdhub/api-beta"
 	"log"
