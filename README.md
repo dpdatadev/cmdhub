@@ -8,11 +8,36 @@ MIT License
 
 Copyright (c) 2026 DP Digital Solutions, LLC
 
+What this project will eventually be:
+```go
+//TextCommand   → local shell
+//SSHCommand    → remote shell
+//HTTPCommand   → REST call
+//FileCommand   → write/read
+//SQLCommand    → database
+
+//Track, audit, and chain shell, SSH, HTTP, and file commands into reproducible execution graphs — with Redis caching and database storage built in.
+
+pipeline := hub.NewPipeline()
+//Pipeline must be done before Beta
+pipeline.
+    //RedisCommandCache("command:registry")
+    SSH(sshConfig, "journalctl", []string{"-n", "500"}).
+    PipeLocal("grep", []string{"ERROR"}).
+    PipeHTTPPost("https://ops.internal/logs").
+    DumpSQLITE().
+    PipeFile("error_report.txt")
+
+pipeline.Run(ctx)
+```
+
 CMDHUB is a composable, local (and remote), execution/toolchain framework for helping supervise shell scripts and other automated tasks in Go programs. 
 OS/EXEC is the heart of the system with options for persistence, auditing, logging, and tracking/lineage graphs.
 
 The project is still in early development.
-I'll use examples to better demonstrate what the package tries to be.
+
+What it is (right now):
+I'll use examples to better demonstrate what the project tries to accomplish in it's current state.
 
 Full Example handling Asynchoronous Job runners fed from shell commands in a text file.
 In this example, persistence is handled by the HubStore (SQLITE default, could be Gorm or Redis)
