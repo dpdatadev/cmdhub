@@ -1,5 +1,5 @@
 More documentation to come.
-EARLY BETA - EARLY DEVELOPMENT
+BETA - EARLY DEVELOPMENT
 
 Derek Pauley
 dpdatadev@gmail.com
@@ -31,7 +31,7 @@ pipeline.
 pipeline.Run(ctx)
 ```
 
-CMDHUB is a composable, local (and remote), execution/toolchain framework for helping supervise shell scripts and other automated tasks in Go programs. 
+ExecServe (formerly cmdhub) is a composable, local (and remote), execution/toolchain framework for helping supervise shell scripts and other automated tasks in Go programs. 
 OS/EXEC is the heart of the system with options for persistence, auditing, logging, and tracking/lineage graphs.
 
 The project is still in early development.
